@@ -1,5 +1,4 @@
 import requests
-from datetime import datetime
 from dateutil import parser
 
 def convert_time_zone(time_str: str, from_timezone: str, to_timezone: str):
