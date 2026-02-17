@@ -1,5 +1,5 @@
 def test_convert_time_zone():
-    from functions.Productivity.convert_time_zone import convert_time_zone
+    from functions.prod.convert_time_zone import convert_time_zone
 
     result = convert_time_zone("2024-01-01 12:00", "America/New_York", "Europe/London")
     assert result["original_time"] == "2024-01-01 12:00"
