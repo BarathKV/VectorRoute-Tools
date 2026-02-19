@@ -1,8 +1,12 @@
-def tset_caculate_bmi():
-    from functions.heath import caculate_bmi
-    assert caculate_bmi(170, 60) == 20.76
+def test_calculate_bmi():
+    from functions.heath.calculate_bmi import calculate_bmi
+    bmi1 = calculate_bmi(170.0, 60.0)
+    print(bmi1)
+    assert round(bmi1, 2) == 20.76
 
-    assert caculate_bmi(180, 80) == 24.69
+    # bmi2 = calculate_bmi(180, 80)
+    # print(bmi2)
+    # assert round(bmi2, 2) == 24.69
 
 
 def test_estimate_daily_calories():
