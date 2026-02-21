@@ -1,9 +1,9 @@
 def estimate_daily_calories(
-    gender: str,
-    age: int,
-    weight_kg: float,
     height_cm: float,
-    activity_level: str
+    weight_kg: float,
+    age: int,
+    gender: str,
+    activity_level: str = "sedentary"
 ):
     """
     Estimate daily calorie needs using Mifflin–St Jeor equation.
@@ -30,11 +30,4 @@ def estimate_daily_calories(
 
     calories = bmr * factor
 
-    return {
-        "gender": gender,
-        "age": age,
-        "weight_kg": weight_kg,
-        "height_cm": height_cm,
-        "activity_level": activity_level,
-        "daily_calorie_needs": round(calories, 2)
-    }
+    return round(calories, 2)

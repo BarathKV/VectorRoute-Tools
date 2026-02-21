@@ -37,6 +37,7 @@ def test_summarize_news_by_keyword():
     assert "summary" in result
     assert isinstance(result["summary"], str)
     assert len(result["summary"]) > 0
+    print(f"Technology summary: {result['summary'][:100]}...")
     
     # Test with a keyword that may not yield results
     result = summarize_news_by_keyword("economy")
@@ -44,3 +45,4 @@ def test_summarize_news_by_keyword():
     assert result["keyword"] == "economy"
     assert "summary" in result
     assert isinstance(result["summary"], str)
+    print(f"Economy summary: {result['summary'][:100]}...")

@@ -45,9 +45,9 @@ def test_get_stock_price():
     print(price)
     assert isinstance(price, float), "Stock price should be a float"
 
-    # # Test case 2: Invalid stock symbol
-    # try:
-    #     get_stock_price("INVALID")
-    #     assert False, "Expected an exception for invalid stock symbol"
-    # except ValueError:
-    #     pass  # Expected exception
+    # Test case 2: Invalid stock symbol
+    try:
+        get_stock_price("INVALID")
+        assert False, "Expected an exception for invalid stock symbol"
+    except ValueError:
+        pass  # Expected exception

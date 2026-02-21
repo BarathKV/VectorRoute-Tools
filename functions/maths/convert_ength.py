@@ -1,5 +1,5 @@
-def length_converter(value:float, from_unit:str, to_unit:str) -> float:
-    # Define conversion factors
+def convert_length(value:float, from_unit:str, to_unit:str) -> float:
+    # Define conversion factors (in meters)
     conversion_factors = {
         'm': 1.0,
         'km': 1000.0,
@@ -8,6 +8,7 @@ def length_converter(value:float, from_unit:str, to_unit:str) -> float:
         'in': 0.0254,
         'ft': 0.3048,
         'yd': 0.9144,
+        'mi': 1609.34,
     }
     
     # Check if the units are valid
@@ -20,4 +21,5 @@ def length_converter(value:float, from_unit:str, to_unit:str) -> float:
     # Convert the value from meters to the target unit
     converted_value = value_in_meters / conversion_factors[to_unit]
     
-    return converted_value
+    # Round to avoid floating point precision issues
+    return round(converted_value, 10)

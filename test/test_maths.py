@@ -1,5 +1,5 @@
 def test_length_converter():
-    from functions.maths.length_converter import convert_length
+    from functions.maths.convert_ength import convert_length
 
     assert convert_length(1, 'm', 'cm') == 100
     assert convert_length(1, 'km', 'm') == 1000
@@ -9,7 +9,7 @@ def test_length_converter():
 
 
 def test_percentage_calc():
-    from functions.maths.percentage_calc import calculate_percentage
+    from functions.maths.calculate_percentage import calculate_percentage
 
     assert calculate_percentage(50, 200) == 25
     assert calculate_percentage(30, 150) == 20
