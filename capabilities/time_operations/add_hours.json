@@ -1,0 +1,32 @@
+{
+  "type": "function",
+  "function": {
+    "name": "add_hours",
+    "description": "Add hours to a given time.",
+    "long_description": "Calculates a new time by adding a specified number of hours to a given time.",
+    "domain": "Time Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "time_string": {
+          "type": "string",
+          "description": "Time as string (default format: %H:%M:%S)"
+        },
+        "hours": {
+          "type": "integer",
+          "description": "Number of hours to add"
+        },
+        "time_format": {
+          "type": "string",
+          "description": "Time format (default: %H:%M:%S)"
+        }
+      },
+      "required": ["time_string", "hours"]
+    },
+    "example_user_queries": [
+      "Add 3 hours to 14:30:00",
+      "What time will it be in 5 hours?",
+      "Add hours to time"
+    ]
+  }
+}

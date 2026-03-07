@@ -1,0 +1,28 @@
+{
+  "type": "function",
+  "function": {
+    "name": "parse_date",
+    "description": "Parse a date string and extract date components.",
+    "long_description": "Parses a date string and returns individual date components (year, month, day) and day of week.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date_string": {
+          "type": "string",
+          "description": "Date string to parse"
+        },
+        "format_string": {
+          "type": "string",
+          "description": "Format string for parsing (default: %Y-%m-%d)"
+        }
+      },
+      "required": ["date_string"]
+    },
+    "example_user_queries": [
+      "Parse 2025-02-28 and show components",
+      "Extract date components from string",
+      "Get year month day from date string"
+    ]
+  }
+}

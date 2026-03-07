@@ -1,0 +1,32 @@
+{
+  "type": "function",
+  "function": {
+    "name": "add_days",
+    "description": "Add days to a given date.",
+    "long_description": "Calculates a new date by adding a specified number of days to a given date.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "Date as string (default format: YYYY-MM-DD)"
+        },
+        "n": {
+          "type": "integer",
+          "description": "Number of days to add"
+        },
+        "date_format": {
+          "type": "string",
+          "description": "Date format string (default: %Y-%m-%d)"
+        }
+      },
+      "required": ["date", "n"]
+    },
+    "example_user_queries": [
+      "What is the date 30 days from 2025-02-28?",
+      "Add 7 days to a date",
+      "Add days to date"
+    ]
+  }
+}

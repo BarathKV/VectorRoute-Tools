@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "reverse_number",
+    "description": "Reverse the digits of a number.",
+    "long_description": "Returns a new number with the digits reversed, preserving the sign (negative stays negative).",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "n": {
+          "type": "integer",
+          "description": "Integer number to reverse"
+        }
+      },
+      "required": ["n"]
+    },
+    "example_user_queries": [
+      "Reverse the number 12345",
+      "What is 9876 reversed?",
+      "Reverse digits"
+    ]
+  }
+}

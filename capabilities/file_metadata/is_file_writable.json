@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "is_file_writable",
+    "description": "Check if a file is writable.",
+    "long_description": "Determines whether the current user has write permission for a file.",
+    "domain": "File Metadata",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Path to the file"
+        }
+      },
+      "required": ["path"]
+    },
+    "example_user_queries": [
+      "Is this file writable?",
+      "Check file write permissions",
+      "Can I modify this file?"
+    ]
+  }
+}

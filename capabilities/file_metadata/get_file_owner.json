@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_file_owner",
+    "description": "Get the owner of a file.",
+    "long_description": "Returns the UID and username of the file owner.",
+    "domain": "File Metadata",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Path to the file"
+        }
+      },
+      "required": ["path"]
+    },
+    "example_user_queries": [
+      "Who owns this file?",
+      "Get file owner",
+      "Show file ownership"
+    ]
+  }
+}

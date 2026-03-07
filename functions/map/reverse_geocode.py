@@ -19,4 +19,9 @@ def reverse_geocode(latitude: float, longitude: float):
     response.raise_for_status()
     data = response.json()
 
-    return data.get("display_name", "Address not found")
+    return {
+        "latitude": latitude,
+        "longitude": longitude,
+        "address": data.get("display_name"),
+        "details": data.get("address", {})
+    }

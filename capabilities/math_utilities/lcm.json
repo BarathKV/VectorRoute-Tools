@@ -1,0 +1,28 @@
+{
+  "type": "function",
+  "function": {
+    "name": "lcm",
+    "description": "Calculate the Least Common Multiple of two numbers.",
+    "long_description": "Computes the least common multiple (LCM) of two integers, the smallest number divisible by both.",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "integer",
+          "description": "First integer"
+        },
+        "b": {
+          "type": "integer",
+          "description": "Second integer"
+        }
+      },
+      "required": ["a", "b"]
+    },
+    "example_user_queries": [
+      "Find LCM of 12 and 18",
+      "Least common multiple of 4 and 6",
+      "Calculate LCM"
+    ]
+  }
+}

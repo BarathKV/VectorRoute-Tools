@@ -1,0 +1,19 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_current_date",
+    "description": "Get today's current date.",
+    "long_description": "Retrieves the current date in YYYY-MM-DD format along with year, month, and day components.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "example_user_queries": [
+      "What is today's date?",
+      "Get current date",
+      "Show today's date"
+    ]
+  }
+}

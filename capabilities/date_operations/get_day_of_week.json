@@ -1,0 +1,28 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_day_of_week",
+    "description": "Get the day of week for a given date.",
+    "long_description": "Returns the day of week name and numeric value for a specified date.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "Date as string (default format: YYYY-MM-DD)"
+        },
+        "date_format": {
+          "type": "string",
+          "description": "Date format string (default: %Y-%m-%d)"
+        }
+      },
+      "required": ["date"]
+    },
+    "example_user_queries": [
+      "What day of the week was 2025-02-28?",
+      "Get day of week for a date",
+      "Is 2025-01-01 a Monday?"
+    ]
+  }
+}

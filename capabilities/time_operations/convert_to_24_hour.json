@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "convert_to_24_hour",
+    "description": "Convert 12-hour format time to 24-hour format.",
+    "long_description": "Converts a 12-hour format time string (with AM/PM) to 24-hour military format.",
+    "domain": "Time Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "time_string": {
+          "type": "string",
+          "description": "Time string in 12-hour format (e.g., '02:30:00 PM')"
+        }
+      },
+      "required": ["time_string"]
+    },
+    "example_user_queries": [
+      "Convert 02:30:00 PM to 24-hour format",
+      "Convert 12-hour to 24-hour time",
+      "Military time conversion"
+    ]
+  }
+}

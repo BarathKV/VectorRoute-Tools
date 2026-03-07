@@ -1,0 +1,28 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_day_of_year",
+    "description": "Get the day of year (1-366) for a date.",
+    "long_description": "Returns the ordinal day number in the year (1-366) for a specified date, along with leap year information.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "Date as string (default format: YYYY-MM-DD)"
+        },
+        "date_format": {
+          "type": "string",
+          "description": "Date format string (default: %Y-%m-%d)"
+        }
+      },
+      "required": ["date"]
+    },
+    "example_user_queries": [
+      "What is the day of year for 2025-02-28?",
+      "Get ordinal day number in the year",
+      "Is this a leap year?"
+    ]
+  }
+}

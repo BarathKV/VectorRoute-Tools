@@ -1,0 +1,32 @@
+{
+  "type": "function",
+  "function": {
+    "name": "convert_time_format",
+    "description": "Convert a time string from one format to another.",
+    "long_description": "Parses a time string in one format and reformats it to a different time format.",
+    "domain": "Time Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "time_string": {
+          "type": "string",
+          "description": "Time as string"
+        },
+        "input_format": {
+          "type": "string",
+          "description": "Input time format (default: %H:%M:%S)"
+        },
+        "output_format": {
+          "type": "string",
+          "description": "Output time format (default: %I:%M:%S %p)"
+        }
+      },
+      "required": ["time_string"]
+    },
+    "example_user_queries": [
+      "Convert 14:30:00 to 12-hour format",
+      "Reformat time string",
+      "Convert time format"
+    ]
+  }
+}

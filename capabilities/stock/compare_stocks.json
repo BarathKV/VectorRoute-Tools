@@ -1,0 +1,29 @@
+{
+  "type": "function",
+  "function": {
+    "name": "compare_stocks",
+    "description": "Compare multiple stocks by current price and daily movement.",
+    "long_description": "Retrieves live quote summaries for multiple stock symbols and highlights best and worst daily performers using percentage change.",
+    "domain": "Stock & Crypto",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "symbols": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of stock symbols to compare"
+        }
+      },
+      "required": ["symbols"]
+    },
+    "example_user_queries": [
+      "Compare AAPL, MSFT and GOOGL",
+      "Which performed better today: TSLA or NVDA?",
+      "Compare these stocks by daily change",
+      "Show stock comparison for AMZN META NFLX",
+      "Get best and worst performer for this list"
+    ]
+  }
+}

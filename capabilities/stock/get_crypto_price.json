@@ -1,0 +1,30 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_crypto_price",
+    "description": "Get current crypto price and 24h market stats.",
+    "long_description": "Retrieves current cryptocurrency price, market cap, 24-hour trading volume, and 24-hour percentage change for a specified coin and target currency.",
+    "domain": "Stock & Crypto",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "coin_id": {
+          "type": "string",
+          "description": "CoinGecko coin id such as bitcoin, ethereum, solana"
+        },
+        "vs_currency": {
+          "type": "string",
+          "description": "Target currency code such as usd, eur, inr"
+        }
+      },
+      "required": ["coin_id"]
+    },
+    "example_user_queries": [
+      "Get Bitcoin price in USD",
+      "Show Ethereum price and 24h change",
+      "What is Solana market cap in usd?",
+      "Get current Dogecoin price",
+      "Check crypto price for cardano in eur"
+    ]
+  }
+}

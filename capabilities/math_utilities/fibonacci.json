@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "fibonacci",
+    "description": "Get the nth Fibonacci number.",
+    "long_description": "Returns the nth number in the Fibonacci sequence (0-indexed), where each number is the sum of the previous two.",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "n": {
+          "type": "integer",
+          "description": "Position in Fibonacci sequence (0-indexed, non-negative)"
+        }
+      },
+      "required": ["n"]
+    },
+    "example_user_queries": [
+      "What is the 10th Fibonacci number?",
+      "Calculate Fibonacci at position 7",
+      "Get Fibonacci number"
+    ]
+  }
+}

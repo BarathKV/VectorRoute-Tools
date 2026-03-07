@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "is_leap_year",
+    "description": "Check if a year is a leap year.",
+    "long_description": "Determines whether a given year is a leap year and returns the number of days in that year.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "integer",
+          "description": "Year to check"
+        }
+      },
+      "required": ["year"]
+    },
+    "example_user_queries": [
+      "Is 2024 a leap year?",
+      "Check if year is leap year",
+      "How many days in 2025?"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "function",
+  "function": {
+    "name": "generate_random_number",
+    "description": "Generate a random integer between min and max (inclusive).",
+    "long_description": "Generates a random integer within the specified range, including both the minimum and maximum values.",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "min_val": {
+          "type": "integer",
+          "description": "Minimum value (inclusive)"
+        },
+        "max_val": {
+          "type": "integer",
+          "description": "Maximum value (inclusive)"
+        }
+      },
+      "required": ["min_val", "max_val"]
+    },
+    "example_user_queries": [
+      "Generate random number between 1 and 100",
+      "Pick a random integer from 10 to 50",
+      "Generate random number"
+    ]
+  }
+}

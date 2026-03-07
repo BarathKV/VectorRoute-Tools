@@ -1,0 +1,32 @@
+{
+  "type": "function",
+  "function": {
+    "name": "subtract_days",
+    "description": "Subtract days from a given date.",
+    "long_description": "Calculates a new date by subtracting a specified number of days from a given date.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "Date as string (default format: YYYY-MM-DD)"
+        },
+        "n": {
+          "type": "integer",
+          "description": "Number of days to subtract"
+        },
+        "date_format": {
+          "type": "string",
+          "description": "Date format string (default: %Y-%m-%d)"
+        }
+      },
+      "required": ["date", "n"]
+    },
+    "example_user_queries": [
+      "What was the date 10 days before 2025-02-28?",
+      "Subtract 14 days from a date",
+      "Subtract days from date"
+    ]
+  }
+}

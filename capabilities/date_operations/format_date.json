@@ -1,0 +1,32 @@
+{
+  "type": "function",
+  "function": {
+    "name": "format_date",
+    "description": "Format a date string to a different format.",
+    "long_description": "Parses a date string and reformats it to a different date format.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "Date as string"
+        },
+        "input_format": {
+          "type": "string",
+          "description": "Input date format (default: %Y-%m-%d)"
+        },
+        "output_format": {
+          "type": "string",
+          "description": "Output date format (default: %A, %B %d, %Y)"
+        }
+      },
+      "required": ["date"]
+    },
+    "example_user_queries": [
+      "Format 2025-02-28 as Friday, February 28, 2025",
+      "Convert date format from YYYY-MM-DD to readable format",
+      "Reformat date string"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_uv_index",
+    "description": "Get current and daily UV index for a city.",
+    "long_description": "Retrieves UV index details, including current UV index and daily peak UV values, for a specified city using an external weather API.",
+    "domain": "Weather",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string",
+          "description": "Name of the city to get UV index details for"
+        }
+      },
+      "required": ["city"]
+    },
+    "example_user_queries": [
+      "What is the UV index in London right now?",
+      "Get UV index for New York",
+      "Show today's UV index in Chennai",
+      "Is UV high today in Paris?",
+      "Check UV index forecast for Berlin"
+    ]
+  }
+}

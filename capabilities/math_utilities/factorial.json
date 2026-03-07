@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "factorial",
+    "description": "Calculate the factorial of a number.",
+    "long_description": "Computes the factorial (n!) of a non-negative integer, where n! = n × (n-1) × ... × 1.",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "n": {
+          "type": "integer",
+          "description": "Non-negative integer"
+        }
+      },
+      "required": ["n"]
+    },
+    "example_user_queries": [
+      "Calculate factorial of 5",
+      "What is 10!?",
+      "Compute factorial"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "is_prime",
+    "description": "Check if a number is prime.",
+    "long_description": "Determines whether a given integer is a prime number (only divisible by 1 and itself).",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "n": {
+          "type": "integer",
+          "description": "Integer to check for primality"
+        }
+      },
+      "required": ["n"]
+    },
+    "example_user_queries": [
+      "Is 17 a prime number?",
+      "Check if 23 is prime",
+      "Prime number check"
+    ]
+  }
+}

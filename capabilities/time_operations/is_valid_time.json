@@ -1,0 +1,28 @@
+{
+  "type": "function",
+  "function": {
+    "name": "is_valid_time",
+    "description": "Check if a time string is valid in a given format.",
+    "long_description": "Validates whether a time string matches a specified format and returns parsed time components if valid.",
+    "domain": "Time Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "time_string": {
+          "type": "string",
+          "description": "Time string to validate"
+        },
+        "time_format": {
+          "type": "string",
+          "description": "Time format to validate against (default: %H:%M:%S)"
+        }
+      },
+      "required": ["time_string"]
+    },
+    "example_user_queries": [
+      "Is 14:30:00 a valid time?",
+      "Validate time format",
+      "Check if time is valid"
+    ]
+  }
+}

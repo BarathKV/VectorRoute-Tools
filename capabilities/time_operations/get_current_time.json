@@ -1,0 +1,19 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_current_time",
+    "description": "Get the current time in HH:MM:SS format.",
+    "long_description": "Retrieves the current system time with hour, minute, second, and microsecond details.",
+    "domain": "Time Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "example_user_queries": [
+      "What is the current time?",
+      "Get current time",
+      "Show current time"
+    ]
+  }
+}

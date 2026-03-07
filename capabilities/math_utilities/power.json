@@ -1,0 +1,29 @@
+{
+  "type": "function",
+  "function": {
+    "name": "power",
+    "description": "Calculate base raised to the power of exponent.",
+    "long_description": "Computes base^exponent, where base is raised to the power of exponent.",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "base": {
+          "type": "number",
+          "description": "Base number"
+        },
+        "exponent": {
+          "type": "number",
+          "description": "Exponent"
+        }
+      },
+      "required": ["base", "exponent"]
+    },
+    "example_user_queries": [
+      "Calculate 2 to the power of 8",
+      "What is 5^3?",
+      "Compute power",
+      "Base raised to exponent"
+    ]
+  }
+}

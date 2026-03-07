@@ -1,0 +1,28 @@
+{
+  "type": "function",
+  "function": {
+    "name": "gcd",
+    "description": "Calculate the Greatest Common Divisor of two numbers.",
+    "long_description": "Computes the greatest common divisor (GCD) of two integers, the largest number that divides both.",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "integer",
+          "description": "First integer"
+        },
+        "b": {
+          "type": "integer",
+          "description": "Second integer"
+        }
+      },
+      "required": ["a", "b"]
+    },
+    "example_user_queries": [
+      "Find GCD of 48 and 18",
+      "Greatest common divisor of 100 and 75",
+      "Calculate GCD"
+    ]
+  }
+}

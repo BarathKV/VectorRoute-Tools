@@ -1,0 +1,32 @@
+{
+  "type": "function",
+  "function": {
+    "name": "calculate_time_difference",
+    "description": "Calculate the difference in hours, minutes, and seconds between two times.",
+    "long_description": "Computes the time difference between two times and returns the result in hours, minutes, seconds, and total seconds.",
+    "domain": "Time Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "t1": {
+          "type": "string",
+          "description": "First time as string (default format: %H:%M:%S)"
+        },
+        "t2": {
+          "type": "string",
+          "description": "Second time as string (default format: %H:%M:%S)"
+        },
+        "time_format": {
+          "type": "string",
+          "description": "Time format (default: %H:%M:%S)"
+        }
+      },
+      "required": ["t1", "t2"]
+    },
+    "example_user_queries": [
+      "How much time between 10:30:00 and 14:30:00?",
+      "Calculate time difference",
+      "Duration between two times"
+    ]
+  }
+}

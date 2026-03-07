@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_file_modified_time",
+    "description": "Get the modification time of a file.",
+    "long_description": "Returns the file modification timestamp and formatted datetime details.",
+    "domain": "File Metadata",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Path to the file"
+        }
+      },
+      "required": ["path"]
+    },
+    "example_user_queries": [
+      "When was this file last modified?",
+      "Get file modification time",
+      "Show last updated date"
+    ]
+  }
+}

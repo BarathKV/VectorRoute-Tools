@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_file_extension",
+    "description": "Get the file extension from a path.",
+    "long_description": "Extracts and returns the file extension and filename components.",
+    "domain": "File Metadata",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Path to the file"
+        }
+      },
+      "required": ["path"]
+    },
+    "example_user_queries": [
+      "What is the extension of file.txt?",
+      "Get file extension",
+      "Show file type"
+    ]
+  }
+}

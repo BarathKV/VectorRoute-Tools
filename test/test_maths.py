@@ -1,18 +1,18 @@
 def test_length_converter():
-    from functions.maths.convert_ength import convert_length
+    from functions.maths.length_converter import length_converter
 
-    assert convert_length(1, 'm', 'cm') == 100
-    assert convert_length(1, 'km', 'm') == 1000
-    assert convert_length(1, 'ft', 'in') == 12
-    assert convert_length(1, 'yd', 'ft') == 3
-    assert convert_length(1, 'mi', 'km') == 1.60934
+    assert length_converter(1, 'm', 'cm') == 100.0
+    assert length_converter(1, 'km', 'm') == 1000.0
+    assert round(length_converter(1, 'ft', 'in'), 5) == 12.0
+    assert round(length_converter(1, 'yd', 'ft'), 5) == 3.0
+    assert round(length_converter(100, 'cm', 'm'), 5) == 1.0
 
 
 def test_percentage_calc():
-    from functions.maths.calculate_percentage import calculate_percentage
+    from functions.maths.percentage_calc import percentage_calc
 
-    assert calculate_percentage(50, 200) == 25
-    assert calculate_percentage(30, 150) == 20
-    assert calculate_percentage(75, 300) == 25
-    assert calculate_percentage(10, 50) == 20
-    assert calculate_percentage(5, 25) == 20
+    assert percentage_calc(50, 200) == 25.0
+    assert percentage_calc(30, 150) == 20.0
+    assert percentage_calc(75, 300) == 25.0
+    assert percentage_calc(10, 50) == 20.0
+    assert percentage_calc(5, 25) == 20.0

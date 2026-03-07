@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "sum_of_digits",
+    "description": "Calculate the sum of digits in a number.",
+    "long_description": "Computes the sum of all individual digits in a number, treating negative numbers as their absolute value.",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "n": {
+          "type": "integer",
+          "description": "Integer number"
+        }
+      },
+      "required": ["n"]
+    },
+    "example_user_queries": [
+      "What is the sum of digits in 12345?",
+      "Calculate sum of digits for 951",
+      "Sum all digits"
+    ]
+  }
+}

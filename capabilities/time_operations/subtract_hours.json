@@ -1,0 +1,32 @@
+{
+  "type": "function",
+  "function": {
+    "name": "subtract_hours",
+    "description": "Subtract hours from a given time.",
+    "long_description": "Calculates a new time by subtracting a specified number of hours from a given time.",
+    "domain": "Time Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "time_string": {
+          "type": "string",
+          "description": "Time as string (default format: %H:%M:%S)"
+        },
+        "hours": {
+          "type": "integer",
+          "description": "Number of hours to subtract"
+        },
+        "time_format": {
+          "type": "string",
+          "description": "Time format (default: %H:%M:%S)"
+        }
+      },
+      "required": ["time_string", "hours"]
+    },
+    "example_user_queries": [
+      "Subtract 2 hours from 14:30:00",
+      "What time was it 3 hours ago?",
+      "Subtract hours from time"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_file_size",
+    "description": "Get the size of a file.",
+    "long_description": "Returns the file size in bytes, kilobytes, and megabytes.",
+    "domain": "File Metadata",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Path to the file"
+        }
+      },
+      "required": ["path"]
+    },
+    "example_user_queries": [
+      "What is the size of file.txt?",
+      "Get file size",
+      "How large is this file?"
+    ]
+  }
+}

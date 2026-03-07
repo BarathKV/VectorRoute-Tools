@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "is_palindrome_number",
+    "description": "Check if a number is a palindrome.",
+    "long_description": "Determines whether a number reads the same forwards and backwards (ignoring sign).",
+    "domain": "Math Utilities",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "n": {
+          "type": "integer",
+          "description": "Integer number to check"
+        }
+      },
+      "required": ["n"]
+    },
+    "example_user_queries": [
+      "Is 12321 a palindrome?",
+      "Check if 101 is a palindrome number",
+      "Palindrome number check"
+    ]
+  }
+}

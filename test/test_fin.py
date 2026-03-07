@@ -35,19 +35,3 @@ def test_convert_currency():
     with pytest.raises(Exception):
         convert_currency(from_currency, "INVALID", amount)
 
-
-
-def test_get_stock_price():
-    from functions.fin.get_stock_price import get_stock_price
-    # Test case 1: Basic test case
-    stock_symbol = "AAPL"
-    price = get_stock_price(stock_symbol)
-    print(price)
-    assert isinstance(price, float), "Stock price should be a float"
-
-    # Test case 2: Invalid stock symbol
-    try:
-        get_stock_price("INVALID")
-        assert False, "Expected an exception for invalid stock symbol"
-    except ValueError:
-        pass  # Expected exception

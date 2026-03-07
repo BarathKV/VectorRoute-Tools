@@ -1,0 +1,32 @@
+{
+  "type": "function",
+  "function": {
+    "name": "calculate_date_difference",
+    "description": "Calculate the difference in days between two dates.",
+    "long_description": "Computes the number of days between two dates and returns both signed and absolute difference.",
+    "domain": "Date Operations",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date1": {
+          "type": "string",
+          "description": "First date as string (default format: YYYY-MM-DD)"
+        },
+        "date2": {
+          "type": "string",
+          "description": "Second date as string (default format: YYYY-MM-DD)"
+        },
+        "date_format": {
+          "type": "string",
+          "description": "Date format string (default: %Y-%m-%d)"
+        }
+      },
+      "required": ["date1", "date2"]
+    },
+    "example_user_queries": [
+      "How many days between 2025-01-10 and 2025-02-15?",
+      "Calculate date difference between two dates",
+      "Days between two dates"
+    ]
+  }
+}

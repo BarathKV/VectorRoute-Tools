@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_file_permissions",
+    "description": "Get the permissions of a file.",
+    "long_description": "Returns file permissions in both octal and symbolic notation along with owner permission flags.",
+    "domain": "File Metadata",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Path to the file"
+        }
+      },
+      "required": ["path"]
+    },
+    "example_user_queries": [
+      "What are the permissions?",
+      "Get file permissions",
+      "Show file access mode"
+    ]
+  }
+}
