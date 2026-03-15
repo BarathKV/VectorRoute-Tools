@@ -23,7 +23,15 @@ class TestFileMetadata:
     """Test suite for file metadata functions"""
 
     def test_get_file_size(self):
-        """Test getting file size"""
+        """
+        Test getting file size
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.path.isfile') as mock_isfile, \
              patch('os.path.getsize') as mock_size:
@@ -38,7 +46,15 @@ class TestFileMetadata:
             assert result['size_mb'] == 1.95
 
     def test_get_file_extension(self):
-        """Test extracting file extension"""
+        """
+        Test extracting file extension
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists:
             mock_exists.return_value = True
             result = get_file_extension("/home/user/document.pdf")
@@ -48,7 +64,15 @@ class TestFileMetadata:
             assert result['extension'] == ".pdf"
 
     def test_get_file_extension_no_extension(self):
-        """Test file without extension"""
+        """
+        Test file without extension
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists:
             mock_exists.return_value = True
             result = get_file_extension("/home/user/README")
@@ -58,7 +82,15 @@ class TestFileMetadata:
             assert result['extension'] == "No extension"
 
     def test_get_file_created_time(self):
-        """Test getting file creation time"""
+        """
+        Test getting file creation time
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.path.getctime') as mock_getctime:
             mock_exists.return_value = True
@@ -72,7 +104,15 @@ class TestFileMetadata:
             assert 'created_time' in result
 
     def test_get_file_modified_time(self):
-        """Test getting file modification time"""
+        """
+        Test getting file modification time
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.path.getmtime') as mock_getmtime:
             mock_exists.return_value = True
@@ -86,7 +126,15 @@ class TestFileMetadata:
             assert 'modified_time' in result
 
     def test_is_file_readable(self):
-        """Test checking file readability"""
+        """
+        Test checking file readability
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.access') as mock_access:
             mock_exists.return_value = True
@@ -97,7 +145,15 @@ class TestFileMetadata:
             assert result['is_readable'] is True
 
     def test_is_file_readable_not_readable(self):
-        """Test when file is not readable"""
+        """
+        Test when file is not readable
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.access') as mock_access:
             mock_exists.return_value = True
@@ -108,7 +164,15 @@ class TestFileMetadata:
             assert result['is_readable'] is False
 
     def test_is_file_writable(self):
-        """Test checking file writeability"""
+        """
+        Test checking file writeability
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.access') as mock_access:
             mock_exists.return_value = True
@@ -119,7 +183,15 @@ class TestFileMetadata:
             assert result['is_writable'] is True
 
     def test_is_file_writable_not_writable(self):
-        """Test when file is not writable"""
+        """
+        Test when file is not writable
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.access') as mock_access:
             mock_exists.return_value = True
@@ -130,7 +202,15 @@ class TestFileMetadata:
             assert result['is_writable'] is False
 
     def test_get_absolute_path(self):
-        """Test getting absolute path"""
+        """
+        Test getting absolute path
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.abspath') as mock_abs, \
              patch('os.path.exists') as mock_exists:
             mock_abs.return_value = "/home/user/documents/file.txt"
@@ -141,7 +221,15 @@ class TestFileMetadata:
             assert result['absolute_path'] == "/home/user/documents/file.txt"
 
     def test_get_absolute_path_nonexistent(self):
-        """Test absolute path for nonexistent file"""
+        """
+        Test absolute path for nonexistent file
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.abspath') as mock_abs, \
              patch('os.path.exists') as mock_exists:
             mock_abs.return_value = "/home/user/nonexistent.txt"
@@ -152,7 +240,15 @@ class TestFileMetadata:
             assert result['absolute_path'] == "/home/user/nonexistent.txt"
 
     def test_file_exists_true(self):
-        """Test file existence check when file exists"""
+        """
+        Test file existence check when file exists
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.path.isfile') as mock_isfile, \
              patch('os.path.isdir') as mock_isdir:
@@ -167,7 +263,15 @@ class TestFileMetadata:
             assert result['is_directory'] is False
 
     def test_file_exists_false(self):
-        """Test file existence check when file doesn't exist"""
+        """
+        Test file existence check when file doesn't exist
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.path.isfile') as mock_isfile, \
              patch('os.path.isdir') as mock_isdir:
@@ -182,7 +286,15 @@ class TestFileMetadata:
             assert result['is_directory'] is False
 
     def test_file_exists_directory(self):
-        """Test file existence check for a directory"""
+        """
+        Test file existence check for a directory
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         with patch('os.path.exists') as mock_exists, \
              patch('os.path.isfile') as mock_isfile, \
              patch('os.path.isdir') as mock_isdir:
@@ -197,7 +309,15 @@ class TestFileMetadata:
             assert result['is_directory'] is True
 
     def test_get_file_owner(self):
-        """Test getting file owner information"""
+        """
+        Test getting file owner information
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         mock_stat_result = Mock()
         mock_stat_result.st_uid = 501
         
@@ -214,7 +334,15 @@ class TestFileMetadata:
             assert result['owner'] == 'testuser'
 
     def test_get_file_permissions(self):
-        """Test getting file permissions"""
+        """
+        Test getting file permissions
+
+        Args:
+            None
+
+        Returns:
+            Any: Function result.
+        """
         mock_stat_result = Mock()
         mock_stat_result.st_mode = 33188  # -rw-r--r-- in octal: 0o644
         

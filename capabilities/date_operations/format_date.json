@@ -3,7 +3,7 @@
   "function": {
     "name": "format_date",
     "description": "Format a date string to a different format.",
-    "long_description": "Parses a date string and reformats it to a different date format.",
+    "long_description": "Parses a date string using an input format and returns a reformatted date string in the requested output format.",
     "domain": "Date Operations",
     "parameters": {
       "type": "object",
@@ -21,12 +21,21 @@
           "description": "Output date format (default: %A, %B %d, %Y)"
         }
       },
-      "required": ["date"]
+      "required": [
+        "date"
+      ]
     },
     "example_user_queries": [
-      "Format 2025-02-28 as Friday, February 28, 2025",
-      "Convert date format from YYYY-MM-DD to readable format",
-      "Reformat date string"
+      "Call format_date",
+      "Call format_date for 2024-02-29 into %a, %b %d %Y.",
+      "Change 14-03-2026 from %d-%m-%Y to %Y/%m/%d.",
+      "Convert date 2025-12-31 to %B %d, %Y.",
+      "Convert date string to long format using format_date.",
+      "Execute format_date function",
+      "Execute format_date on 01/09/2026 using input %d/%m/%Y and output %Y-%m-%d.",
+      "Format 2026-03-14 as %d/%m/%Y.",
+      "Format 2026-11-01 to weekday and month name.",
+      "Give me a human-readable date for 2026-10-20."
     ]
   }
 }

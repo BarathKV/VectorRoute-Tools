@@ -3,7 +3,12 @@ import requests
 def get_flight_status(callsign: str):
     """
     Get live flight status using OpenSky Network (no API key required).
-    Callsign example: AAL123, IAE456
+
+    Args:
+        callsign (str): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     url = "https://opensky-network.org/api/states/all"
     params = {

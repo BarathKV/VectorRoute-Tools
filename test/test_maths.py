@@ -1,4 +1,13 @@
 def test_length_converter():
+    """
+    test_length_converter function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.maths.length_converter import length_converter
 
     assert length_converter(1, 'm', 'cm') == 100.0
@@ -9,6 +18,15 @@ def test_length_converter():
 
 
 def test_percentage_calc():
+    """
+    test_percentage_calc function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.maths.percentage_calc import percentage_calc
 
     assert percentage_calc(50, 200) == 25.0

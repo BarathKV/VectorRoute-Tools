@@ -21,12 +21,22 @@
           "description": "Time format (default: %H:%M:%S)"
         }
       },
-      "required": ["time_string", "hours"]
+      "required": [
+        "time_string",
+        "hours"
+      ]
     },
     "example_user_queries": [
-      "Subtract 2 hours from 14:30:00",
-      "What time was it 3 hours ago?",
-      "Subtract hours from time"
+      "Call subtract_hours",
+      "Execute subtract_hours function",
+      "How to subtract hours from a given time?",
+      "How to use subtract_hours?",
+      "Invoke subtract_hours.",
+      "Return result from subtract_hours.",
+      "Run subtract_hours with valid parameters.",
+      "Show an example for subtract_hours.",
+      "Trigger subtract_hours tool.",
+      "Use subtract_hours now."
     ]
   }
 }

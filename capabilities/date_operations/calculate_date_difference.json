@@ -3,7 +3,7 @@
   "function": {
     "name": "calculate_date_difference",
     "description": "Calculate the difference in days between two dates.",
-    "long_description": "Computes the number of days between two dates and returns both signed and absolute difference.",
+    "long_description": "Parses two dates and returns the signed day difference and absolute day difference.",
     "domain": "Date Operations",
     "parameters": {
       "type": "object",
@@ -21,12 +21,22 @@
           "description": "Date format string (default: %Y-%m-%d)"
         }
       },
-      "required": ["date1", "date2"]
+      "required": [
+        "date1",
+        "date2"
+      ]
     },
     "example_user_queries": [
-      "How many days between 2025-01-10 and 2025-02-15?",
-      "Calculate date difference between two dates",
-      "Days between two dates"
+      "Calculate date difference from 2025-06-15 to 2025-07-01.",
+      "Call calculate_date_difference",
+      "Call calculate_date_difference with date1 01/04/2026 and date2 15/04/2026 using %d/%m/%Y.",
+      "Compare 2026-11-01 and 2026-11-30 in days.",
+      "Compute days between 2020-02-29 and 2021-02-28.",
+      "Execute calculate_date_difference function",
+      "Execute calculate_date_difference with two input dates.",
+      "Find day gap for 2026-07-04 and 2026-07-14.",
+      "Get absolute days between 2023-03-10 and 2023-02-01.",
+      "How many days are between 2026-01-01 and 2026-01-31?"
     ]
   }
 }

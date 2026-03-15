@@ -13,12 +13,21 @@
           "description": "Path to the file"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "What is the size of file.txt?",
-      "Get file size",
-      "How large is this file?"
+      "Call get_file_size",
+      "Execute get_file_size function",
+      "How to get the size of a file?",
+      "How to use get_file_size?",
+      "Invoke get_file_size.",
+      "Return result from get_file_size.",
+      "Run get_file_size with valid parameters.",
+      "Show an example for get_file_size.",
+      "Trigger get_file_size tool.",
+      "Use get_file_size now."
     ]
   }
 }

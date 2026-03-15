@@ -13,12 +13,21 @@
           "description": "Non-negative integer"
         }
       },
-      "required": ["n"]
+      "required": [
+        "n"
+      ]
     },
     "example_user_queries": [
-      "Calculate factorial of 5",
-      "What is 10!?",
-      "Compute factorial"
+      "Call factorial",
+      "Execute factorial function",
+      "How to calculate the factorial of a number?",
+      "How to use factorial?",
+      "Invoke factorial.",
+      "Return result from factorial.",
+      "Run factorial with valid parameters.",
+      "Show an example for factorial.",
+      "Trigger factorial tool.",
+      "Use factorial now."
     ]
   }
 }

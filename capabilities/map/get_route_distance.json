@@ -33,16 +33,16 @@
       ]
     },
     "example_user_queries": [
-      "Calculate driving distance between two locations",
-      "How far is the route between these coordinates?",
-      "Road distance between point A and point B",
-      "Calculate route distance",
-      "Driving distance between two GPS points",
-      "Route distance calculator",
-      "How many kilometers by road between these locations?",
-      "Get route distance using coordinates",
-      "Find road distance",
-      "Calculate travel distance by road"
+      "Call get_route_distance",
+      "Execute get_route_distance function",
+      "How to calculate road distance between two locations?",
+      "How to use get_route_distance?",
+      "Invoke get_route_distance.",
+      "Return result from get_route_distance.",
+      "Run get_route_distance with valid parameters.",
+      "Show an example for get_route_distance.",
+      "Trigger get_route_distance tool.",
+      "Use get_route_distance now."
     ]
   }
 }

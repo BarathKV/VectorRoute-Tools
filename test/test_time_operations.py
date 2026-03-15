@@ -9,6 +9,15 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
 def test_get_current_time():
+    """
+    test_get_current_time function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.get_current_time import get_current_time
 
     # Test case 1: Verify structure and time validity
@@ -25,6 +34,15 @@ def test_get_current_time():
 
 
 def test_convert_time_format():
+    """
+    test_convert_time_format function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.convert_time_format import convert_time_format
 
     # Test case 1: 24-hour to 12-hour format
@@ -44,6 +62,15 @@ def test_convert_time_format():
 
 
 def test_add_hours():
+    """
+    test_add_hours function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.add_hours import add_hours
 
     # Test case 1: Add positive hours
@@ -63,6 +90,15 @@ def test_add_hours():
 
 
 def test_subtract_hours():
+    """
+    test_subtract_hours function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.subtract_hours import subtract_hours
 
     # Test case 1: Subtract positive hours
@@ -82,6 +118,15 @@ def test_subtract_hours():
 
 
 def test_calculate_time_difference():
+    """
+    test_calculate_time_difference function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.calculate_time_difference import calculate_time_difference
 
     # Test case 1: Positive difference
@@ -105,6 +150,15 @@ def test_calculate_time_difference():
 
 
 def test_is_valid_time():
+    """
+    test_is_valid_time function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.is_valid_time import is_valid_time
 
     # Test case 1: Valid time
@@ -127,6 +181,15 @@ def test_is_valid_time():
 
 
 def test_convert_to_24_hour():
+    """
+    test_convert_to_24_hour function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.convert_to_24_hour import convert_to_24_hour
 
     # Test case 1: PM time conversion
@@ -150,6 +213,15 @@ def test_convert_to_24_hour():
 
 
 def test_convert_to_12_hour():
+    """
+    test_convert_to_12_hour function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.convert_to_12_hour import convert_to_12_hour
 
     # Test case 1: Afternoon time
@@ -173,6 +245,15 @@ def test_convert_to_12_hour():
 
 
 def test_get_timestamp():
+    """
+    test_get_timestamp function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.get_timestamp import get_timestamp
 
     # Test case 1: Verify timestamp structure
@@ -190,6 +271,15 @@ def test_get_timestamp():
 
 
 def test_timestamp_to_time():
+    """
+    test_timestamp_to_time function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.time_operations.timestamp_to_time import timestamp_to_time
 
     # Test case 1: Convert timestamp to time (check structure and keys)

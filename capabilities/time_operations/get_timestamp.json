@@ -11,9 +11,16 @@
       "required": []
     },
     "example_user_queries": [
-      "What is the current timestamp?",
-      "Get Unix timestamp",
-      "Current epoch time"
+      "Call get_timestamp",
+      "Execute get_timestamp function",
+      "How to get the current unix timestamp?",
+      "How to use get_timestamp?",
+      "Invoke get_timestamp.",
+      "Return result from get_timestamp.",
+      "Run get_timestamp with valid parameters.",
+      "Show an example for get_timestamp.",
+      "Trigger get_timestamp tool.",
+      "Use get_timestamp now."
     ]
   }
 }

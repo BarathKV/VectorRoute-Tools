@@ -3,41 +3,36 @@
   "function": {
     "name": "semantic_search",
     "description": "Search documents based on conceptual similarity.",
+    "long_description": "Searches documents by comparing overlapping terms between the user query and document content to approximate semantic similarity.",
+    "domain": "Search & Information Retrieval",
     "parameters": {
       "type": "object",
       "properties": {
-        "query": { "type": "string" },
-        "corpus": { "type": "string" }
+        "query": {
+          "type": "string",
+          "description": "Input parameter: query"
+        },
+        "corpus": {
+          "type": "string",
+          "description": "Input parameter: corpus"
+        }
       },
-      "required": ["query", "corpus"]
-    }
-  },
-  "name": "semantic_search",
-  "short_description": "Search documents based on conceptual similarity.",
-  "long_description": "Searches documents by comparing overlapping terms between the user query and document content to approximate semantic similarity.",
-  "domain": "Search & Information Retrieval",
-  "parameters": [
-    {
-      "name": "query",
-      "type": "string",
-      "description": "Natural language search query"
+      "required": [
+        "query",
+        "corpus"
+      ]
     },
-    {
-      "name": "corpus",
-      "type": "string",
-      "description": "Document collection name"
-    }
-  ],
-  "example_user_queries": [
-    "Find documents related to login issues",
-    "Search content about database problems",
-    "Look for files discussing failures",
-    "Find documents about authentication",
-    "Search reports related to crashes",
-    "Look up information about errors",
-    "Find content similar to timeout issues",
-    "Search documents about performance",
-    "Find reports discussing system issues",
-    "Search files related to API errors"
-  ]
+    "example_user_queries": [
+      "Call semantic_search",
+      "Execute semantic_search function",
+      "Find content similar to timeout issues",
+      "Find documents about authentication",
+      "Find documents related to login issues",
+      "Find reports discussing system issues",
+      "How to use semantic_search?",
+      "Invoke semantic_search.",
+      "Look for files discussing failures",
+      "Look up information about errors"
+    ]
+  }
 }

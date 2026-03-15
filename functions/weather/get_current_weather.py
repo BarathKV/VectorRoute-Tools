@@ -3,6 +3,12 @@ import requests
 def get_current_weather(city: str):
     """
     Get current weather for a given city using wttr.in (no API key required).
+
+    Args:
+        city (str): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     url = f"https://wttr.in/{city}?format=j1"
     response = requests.get(url, timeout=10)

@@ -4,7 +4,7 @@
     "name": "get_dividend_info",
     "description": "Get dividend details for a stock symbol.",
     "long_description": "Retrieves dividend-related information such as annual dividend rate, dividend yield, and ex-dividend date for a specified stock symbol.",
-    "domain": "Stock & Crypto",
+    "domain": "Stock Market",
     "parameters": {
       "type": "object",
       "properties": {
@@ -13,14 +13,21 @@
           "description": "Stock ticker symbol such as AAPL, MSFT, JNJ"
         }
       },
-      "required": ["symbol"]
+      "required": [
+        "symbol"
+      ]
     },
     "example_user_queries": [
-      "Get dividend info for AAPL",
-      "What is the dividend yield of JNJ?",
-      "Show ex-dividend date for MSFT",
-      "Check annual dividend rate of KO",
-      "Dividend details for T"
+      "Call get_dividend_info",
+      "Execute get_dividend_info function",
+      "How to get dividend details for a stock symbol?",
+      "How to use get_dividend_info?",
+      "Invoke get_dividend_info.",
+      "Return result from get_dividend_info.",
+      "Run get_dividend_info with valid parameters.",
+      "Show an example for get_dividend_info.",
+      "Trigger get_dividend_info tool.",
+      "Use get_dividend_info now."
     ]
   }
 }

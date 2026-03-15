@@ -12,24 +12,30 @@
           "type": "string",
           "description": "Quiz topic or category (general trivia)"
         },
+        "difficulty": {
+          "type": "string",
+          "description": "Optional difficulty level (easy, medium, hard)"
+        },
         "num_questions": {
           "type": "integer",
           "description": "Number of quiz questions to generate"
         }
       },
-      "required": ["category", "num_questions"]
+      "required": [
+        "num_questions"
+      ]
     },
     "example_user_queries": [
-      "Generate a quiz with 5 questions",
-      "Create a trivia quiz",
-      "Make a general knowledge quiz",
-      "Generate quiz questions for students",
-      "Create a multiple-choice quiz",
-      "Quiz generator using real questions",
-      "Generate a random quiz",
-      "Create a practice quiz",
-      "Give me a quiz to test myself",
-      "Generate trivia questions"
+      "Call generate_quiz",
+      "Execute generate_quiz function",
+      "How to generate a quiz using external trivia data?",
+      "How to use generate_quiz?",
+      "Invoke generate_quiz.",
+      "Return result from generate_quiz.",
+      "Run generate_quiz with valid parameters.",
+      "Show an example for generate_quiz.",
+      "Trigger generate_quiz tool.",
+      "Use generate_quiz now."
     ]
   }
 }

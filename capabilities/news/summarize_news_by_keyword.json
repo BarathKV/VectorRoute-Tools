@@ -13,19 +13,21 @@
           "description": "Keyword to search for in news articles"
         }
       },
-      "required": ["keyword"]
+      "required": [
+        "keyword"
+      ]
     },
     "example_user_queries": [
-      "Summarize news about artificial intelligence",
-      "Give me a summary of recent climate change news",
-      "News summary for Tesla",
-      "Summarize articles about elections",
-      "What’s the latest news on inflation?",
-      "Give a short summary of news about space exploration",
-      "Summarize recent tech news",
-      "News overview on cryptocurrency",
-      "Summarize news related to healthcare",
-      "Give me news summaries by keyword"
+      "Call summarize_news_by_keyword",
+      "Execute summarize_news_by_keyword function",
+      "How to summarize recent news articles by keyword?",
+      "How to use summarize_news_by_keyword?",
+      "Invoke summarize_news_by_keyword.",
+      "Return result from summarize_news_by_keyword.",
+      "Run summarize_news_by_keyword with valid parameters.",
+      "Show an example for summarize_news_by_keyword.",
+      "Trigger summarize_news_by_keyword tool.",
+      "Use summarize_news_by_keyword now."
     ]
   }
 }

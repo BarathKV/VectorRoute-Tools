@@ -13,12 +13,21 @@
           "description": "Integer number to reverse"
         }
       },
-      "required": ["n"]
+      "required": [
+        "n"
+      ]
     },
     "example_user_queries": [
-      "Reverse the number 12345",
-      "What is 9876 reversed?",
-      "Reverse digits"
+      "Call reverse_number",
+      "Execute reverse_number function",
+      "How to reverse the digits of a number?",
+      "How to use reverse_number?",
+      "Invoke reverse_number.",
+      "Return result from reverse_number.",
+      "Run reverse_number with valid parameters.",
+      "Show an example for reverse_number.",
+      "Trigger reverse_number tool.",
+      "Use reverse_number now."
     ]
   }
 }

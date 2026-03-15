@@ -5,8 +5,11 @@ def get_current_date():
     """
     Get today's date in YYYY-MM-DD format.
 
+    Args:
+        None
+
     Returns:
-        dict: Dictionary containing current date string and date object details
+        Any: Function result.
     """
     today = datetime.now().date()
     return {

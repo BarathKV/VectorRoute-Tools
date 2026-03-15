@@ -3,7 +3,7 @@
   "function": {
     "name": "parse_date",
     "description": "Parse a date string and extract date components.",
-    "long_description": "Parses a date string and returns individual date components (year, month, day) and day of week.",
+    "long_description": "Parses a date string using the provided format and returns structured date components including weekday and ISO date.",
     "domain": "Date Operations",
     "parameters": {
       "type": "object",
@@ -17,12 +17,21 @@
           "description": "Format string for parsing (default: %Y-%m-%d)"
         }
       },
-      "required": ["date_string"]
+      "required": [
+        "date_string"
+      ]
     },
     "example_user_queries": [
-      "Parse 2025-02-28 and show components",
-      "Extract date components from string",
-      "Get year month day from date string"
+      "Call parse_date",
+      "Call parse_date with date_string 01-12-2025 and format %d-%m-%Y.",
+      "Convert input date text into structured components.",
+      "Execute parse_date for 2026/11/30 using %Y/%m/%d.",
+      "Execute parse_date function",
+      "Extract year month day from 15/08/2026 using %d/%m/%Y.",
+      "Get weekday for parsed date 2026-10-20.",
+      "How to use parse_date?",
+      "I need year and weekday from 2026-09-09.",
+      "Invoke parse_date."
     ]
   }
 }

@@ -1,4 +1,13 @@
 def test_calculate_bmi():
+    """
+    test_calculate_bmi function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.heath.calculate_bmi import calculate_bmi
     bmi1 = calculate_bmi(60.0, 170.0)
     assert isinstance(bmi1, dict)
@@ -12,6 +21,15 @@ def test_calculate_bmi():
 
 
 def test_estimate_daily_calories():
+    """
+    test_estimate_daily_calories function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.heath.estimate_daily_calories import estimate_daily_calories
 
     male = estimate_daily_calories("male", 25, 60, 170, "sedentary")

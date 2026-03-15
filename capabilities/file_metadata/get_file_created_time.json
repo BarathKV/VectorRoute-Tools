@@ -13,12 +13,21 @@
           "description": "Path to the file"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "When was this file created?",
-      "Get file creation time",
-      "Show creation date"
+      "Call get_file_created_time",
+      "Execute get_file_created_time function",
+      "How to get the creation time of a file?",
+      "How to use get_file_created_time?",
+      "Invoke get_file_created_time.",
+      "Return result from get_file_created_time.",
+      "Run get_file_created_time with valid parameters.",
+      "Show an example for get_file_created_time.",
+      "Trigger get_file_created_time tool.",
+      "Use get_file_created_time now."
     ]
   }
 }

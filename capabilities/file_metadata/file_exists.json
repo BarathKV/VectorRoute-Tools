@@ -13,12 +13,21 @@
           "description": "Path to check"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "Does this file exist?",
-      "Check if file exists",
-      "Does the path exist?"
+      "Call file_exists",
+      "Execute file_exists function",
+      "How to check if a file or directory exists?",
+      "How to use file_exists?",
+      "Invoke file_exists.",
+      "Return result from file_exists.",
+      "Run file_exists with valid parameters.",
+      "Show an example for file_exists.",
+      "Trigger file_exists tool.",
+      "Use file_exists now."
     ]
   }
 }

@@ -17,12 +17,22 @@
           "description": "Second integer"
         }
       },
-      "required": ["a", "b"]
+      "required": [
+        "a",
+        "b"
+      ]
     },
     "example_user_queries": [
-      "Find LCM of 12 and 18",
-      "Least common multiple of 4 and 6",
-      "Calculate LCM"
+      "Call lcm",
+      "Execute lcm function",
+      "How to calculate the least common multiple of two numbers?",
+      "How to use lcm?",
+      "Invoke lcm.",
+      "Return result from lcm.",
+      "Run lcm with valid parameters.",
+      "Show an example for lcm.",
+      "Trigger lcm tool.",
+      "Use lcm now."
     ]
   }
 }

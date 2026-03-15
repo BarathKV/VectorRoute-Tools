@@ -17,12 +17,21 @@
           "description": "Output format string (default: %H:%M:%S)"
         }
       },
-      "required": ["timestamp"]
+      "required": [
+        "timestamp"
+      ]
     },
     "example_user_queries": [
-      "Convert timestamp 1740696645 to time",
-      "What time is this timestamp?",
-      "Timestamp to readable time"
+      "Call timestamp_to_time",
+      "Execute timestamp_to_time function",
+      "How to convert unix timestamp to readable time string?",
+      "How to use timestamp_to_time?",
+      "Invoke timestamp_to_time.",
+      "Return result from timestamp_to_time.",
+      "Run timestamp_to_time with valid parameters.",
+      "Show an example for timestamp_to_time.",
+      "Trigger timestamp_to_time tool.",
+      "Use timestamp_to_time now."
     ]
   }
 }

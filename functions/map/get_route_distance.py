@@ -8,6 +8,15 @@ def get_route_distance(
 ):
     """
     Calculate road route distance between two coordinates using OSRM.
+
+    Args:
+        start_latitude (float): Input parameter.
+        start_longitude (float): Input parameter.
+        end_latitude (float): Input parameter.
+        end_longitude (float): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     url = (
         "https://router.project-osrm.org/route/v1/driving/"

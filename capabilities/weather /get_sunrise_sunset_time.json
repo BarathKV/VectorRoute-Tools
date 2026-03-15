@@ -4,7 +4,7 @@
     "name": "get_sunrise_sunset_time",
     "description": "Get sunrise and sunset times for a city.",
     "long_description": "Retrieves sunrise and sunset timing details for a specified city using an external weather API.",
-    "domain": "Weather",
+    "domain": "General Utilities",
     "parameters": {
       "type": "object",
       "properties": {
@@ -13,14 +13,21 @@
           "description": "Name of the city to get sunrise and sunset information for"
         }
       },
-      "required": ["city"]
+      "required": [
+        "city"
+      ]
     },
     "example_user_queries": [
-      "What time is sunrise and sunset in London today?",
-      "Get sunrise time for New York",
-      "Show sunset time in Chennai",
-      "When does the sun rise in Paris?",
-      "Today's sunrise and sunset in Berlin"
+      "Call get_sunrise_sunset_time",
+      "Execute get_sunrise_sunset_time function",
+      "How to get sunrise and sunset times for a city?",
+      "How to use get_sunrise_sunset_time?",
+      "Invoke get_sunrise_sunset_time.",
+      "Return result from get_sunrise_sunset_time.",
+      "Run get_sunrise_sunset_time with valid parameters.",
+      "Show an example for get_sunrise_sunset_time.",
+      "Trigger get_sunrise_sunset_time tool.",
+      "Use get_sunrise_sunset_time now."
     ]
   }
 }

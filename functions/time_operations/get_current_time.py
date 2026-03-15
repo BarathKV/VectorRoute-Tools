@@ -5,8 +5,11 @@ def get_current_time():
     """
     Get the current time in HH:MM:SS format.
 
+    Args:
+        None
+
     Returns:
-        dict: Dictionary containing current time and time component details
+        Any: Function result.
     """
     now = datetime.now().time()
     return {

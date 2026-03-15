@@ -2,6 +2,15 @@ import requests
 import math
 
 def _geocode_city(city: str):
+    """
+    _geocode_city function.
+
+    Args:
+        city (str): Input parameter.
+
+    Returns:
+        Any: Function result.
+    """
     url = "https://nominatim.openstreetmap.org/search"
     params = {
         "q": city,
@@ -23,6 +32,18 @@ def _geocode_city(city: str):
 
 
 def _haversine(lat1, lon1, lat2, lon2):
+    """
+    _haversine function.
+
+    Args:
+        lat1 (Any): Input parameter.
+        lon1 (Any): Input parameter.
+        lat2 (Any): Input parameter.
+        lon2 (Any): Input parameter.
+
+    Returns:
+        Any: Function result.
+    """
     R = 6371  # Earth radius in km
 
     phi1 = math.radians(lat1)
@@ -39,6 +60,13 @@ def _haversine(lat1, lon1, lat2, lon2):
 def get_distance_between_cities(city_from: str, city_to: str):
     """
     Calculate distance between two cities in kilometers.
+
+    Args:
+        city_from (str): Input parameter.
+        city_to (str): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     loc1 = _geocode_city(city_from)
     loc2 = _geocode_city(city_to)

@@ -2,6 +2,15 @@ import pytest
 
 
 def test_calculate_loan_emi():
+    """
+    test_calculate_loan_emi function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.fin.calculate_loan_emi import calculate_loan_emi
     # Test case 1: Basic test case
     principal = 100000
@@ -22,6 +31,15 @@ def test_calculate_loan_emi():
     assert round(emi["total_payment"], 2) == expected_emi, f"Expected {expected_emi}, got {emi}"
 
 def test_convert_currency():
+    """
+    test_convert_currency function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.fin.convert_currency import convert_currency
     # Test case 1: Basic test case
     amount = 100

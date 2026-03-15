@@ -1,4 +1,14 @@
 def search_logs(query: str, log_level: str):
+    """
+    search_logs function.
+
+    Args:
+        query (str): Input parameter.
+        log_level (str): Input parameter.
+
+    Returns:
+        Any: Function result.
+    """
     log_file = "tools/helper/documents/logs.txt"
     results = []
 

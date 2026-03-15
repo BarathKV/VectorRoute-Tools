@@ -3,6 +3,16 @@ import os
 DOCUMENTS_DIR = "documents"
 
 def semantic_search(query: str, corpus: str):
+    """
+    semantic_search function.
+
+    Args:
+        query (str): Input parameter.
+        corpus (str): Input parameter.
+
+    Returns:
+        Any: Function result.
+    """
     matches = []
 
     query_words = set(query.lower().split())

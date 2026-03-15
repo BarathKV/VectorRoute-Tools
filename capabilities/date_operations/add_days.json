@@ -2,8 +2,8 @@
   "type": "function",
   "function": {
     "name": "add_days",
-    "description": "Add days to a given date.",
-    "long_description": "Calculates a new date by adding a specified number of days to a given date.",
+    "description": "Add N days to a given date.",
+    "long_description": "Parses an input date and returns the resulting date after adding a specified number of days.",
     "domain": "Date Operations",
     "parameters": {
       "type": "object",
@@ -21,12 +21,22 @@
           "description": "Date format string (default: %Y-%m-%d)"
         }
       },
-      "required": ["date", "n"]
+      "required": [
+        "date",
+        "n"
+      ]
     },
     "example_user_queries": [
-      "What is the date 30 days from 2025-02-28?",
-      "Add 7 days to a date",
-      "Add days to date"
+      "Add 14 days to 2026-10-20 using %Y-%m-%d format.",
+      "Add 7 days to 2026-03-14.",
+      "Calculate a new date by adding 90 days to 2023-01-01.",
+      "Call add_days",
+      "Call add_days with date 15/03/2026, n 10, date_format %d/%m/%Y.",
+      "Execute add_days for 2026-11-28 plus 2 days.",
+      "Execute add_days function",
+      "Get the resulting date after adding 3 days to 2026-07-04.",
+      "How to use add_days?",
+      "If I add 365 days to 2020-02-29, what is the result?"
     ]
   }
 }

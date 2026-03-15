@@ -17,19 +17,22 @@
           "description": "Longitude of the location"
         }
       },
-      "required": ["latitude", "longitude"]
+      "required": [
+        "latitude",
+        "longitude"
+      ]
     },
     "example_user_queries": [
-      "What address is at latitude 40.7128 and longitude -74.0060?",
-      "Reverse geocode these coordinates",
-      "Find address from GPS location",
-      "What place is this coordinate pointing to?",
-      "Get address from latitude and longitude",
-      "Convert coordinates to address",
-      "Where is this location?",
-      "Find place name using coordinates",
-      "Reverse lookup location",
-      "Identify location from GPS"
+      "Call reverse_geocode",
+      "Execute reverse_geocode function",
+      "How to convert coordinates into a readable address?",
+      "How to use reverse_geocode?",
+      "Invoke reverse_geocode.",
+      "Return result from reverse_geocode.",
+      "Run reverse_geocode with valid parameters.",
+      "Show an example for reverse_geocode.",
+      "Trigger reverse_geocode tool.",
+      "Use reverse_geocode now."
     ]
   }
 }

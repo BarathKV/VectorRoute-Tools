@@ -4,6 +4,12 @@ import requests
 def get_latest_headlines(category: str):
     """
     Get latest news headlines by category using GNews public API.
+
+    Args:
+        category (str): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     url = "https://gnews.io/api/v4/top-headlines"
     params = {

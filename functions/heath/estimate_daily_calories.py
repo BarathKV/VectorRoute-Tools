@@ -7,6 +7,16 @@ def estimate_daily_calories(
 ):
     """
     Estimate daily calorie needs using Mifflin–St Jeor equation.
+
+    Args:
+        gender (str): Input parameter.
+        age (int): Input parameter.
+        weight_kg (float): Input parameter.
+        height_cm (float): Input parameter.
+        activity_level (str): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
 
     if gender.lower() == "male":

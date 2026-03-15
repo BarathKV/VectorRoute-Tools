@@ -5,8 +5,11 @@ def get_timestamp():
     """
     Get the current Unix timestamp.
 
+    Args:
+        None
+
     Returns:
-        dict: Dictionary containing current timestamp and datetime representation
+        Any: Function result.
     """
     current_timestamp = time.time()
     return {

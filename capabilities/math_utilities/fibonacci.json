@@ -13,12 +13,21 @@
           "description": "Position in Fibonacci sequence (0-indexed, non-negative)"
         }
       },
-      "required": ["n"]
+      "required": [
+        "n"
+      ]
     },
     "example_user_queries": [
-      "What is the 10th Fibonacci number?",
-      "Calculate Fibonacci at position 7",
-      "Get Fibonacci number"
+      "Call fibonacci",
+      "Execute fibonacci function",
+      "How to get the nth fibonacci number?",
+      "How to use fibonacci?",
+      "Invoke fibonacci.",
+      "Return result from fibonacci.",
+      "Run fibonacci with valid parameters.",
+      "Show an example for fibonacci.",
+      "Trigger fibonacci tool.",
+      "Use fibonacci now."
     ]
   }
 }

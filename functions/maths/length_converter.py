@@ -1,4 +1,15 @@
 def length_converter(value:float, from_unit:str, to_unit:str) -> float:
+    """
+    length_converter function.
+
+    Args:
+        value (float): Input parameter.
+        from_unit (str): Input parameter.
+        to_unit (str): Input parameter.
+
+    Returns:
+        float: Function result.
+    """
     # Define conversion factors
     conversion_factors = {
         'm': 1.0,

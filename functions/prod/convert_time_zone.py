@@ -3,6 +3,15 @@ from datetime import datetime, timedelta
 
 
 def _offset_to_minutes(offset: str) -> int:
+    """
+    _offset_to_minutes function.
+
+    Args:
+        offset (str): Input parameter.
+
+    Returns:
+        int: Function result.
+    """
     if not isinstance(offset, str) or len(offset) != 6 or offset[0] not in "+-" or offset[3] != ":":
         raise ValueError(f"Invalid UTC offset format: {offset}")
 
@@ -15,7 +24,14 @@ def _offset_to_minutes(offset: str) -> int:
 def convert_time_zone(time_str: str, from_timezone: str, to_timezone: str):
     """
     Convert time from one timezone to another using WorldTimeAPI.
-    time_str format: YYYY-MM-DD HH:MM
+
+    Args:
+        time_str (str): Input parameter.
+        from_timezone (str): Input parameter.
+        to_timezone (str): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     from_url = f"https://worldtimeapi.org/api/timezone/{from_timezone}"
     to_url = f"https://worldtimeapi.org/api/timezone/{to_timezone}"

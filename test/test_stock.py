@@ -8,6 +8,15 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
 def test_get_crypto_price():
+    """
+    test_get_crypto_price function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.stock.get_crypto_price import get_crypto_price
 
     # Test case 1: Expected output check
@@ -49,6 +58,15 @@ def test_get_crypto_price():
 
 
 def test_get_market_movers():
+    """
+    test_get_market_movers function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.stock.get_market_movers import get_market_movers
 
     # Test case 1: Expected output check
@@ -92,6 +110,15 @@ def test_get_market_movers():
 
 
 def test_compare_stocks():
+    """
+    test_compare_stocks function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.stock.compare_stocks import compare_stocks
 
     # Test case 1: Expected output check
@@ -141,6 +168,15 @@ def test_compare_stocks():
 
 
 def test_get_dividend_info():
+    """
+    test_get_dividend_info function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.stock.get_dividend_info import get_dividend_info
 
     # Test case 1: Expected output check

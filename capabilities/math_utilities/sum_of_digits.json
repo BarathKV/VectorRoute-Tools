@@ -13,12 +13,21 @@
           "description": "Integer number"
         }
       },
-      "required": ["n"]
+      "required": [
+        "n"
+      ]
     },
     "example_user_queries": [
-      "What is the sum of digits in 12345?",
-      "Calculate sum of digits for 951",
-      "Sum all digits"
+      "Call sum_of_digits",
+      "Execute sum_of_digits function",
+      "How to calculate the sum of digits in a number?",
+      "How to use sum_of_digits?",
+      "Invoke sum_of_digits.",
+      "Return result from sum_of_digits.",
+      "Run sum_of_digits with valid parameters.",
+      "Show an example for sum_of_digits.",
+      "Trigger sum_of_digits tool.",
+      "Use sum_of_digits now."
     ]
   }
 }

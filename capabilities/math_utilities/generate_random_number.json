@@ -17,12 +17,22 @@
           "description": "Maximum value (inclusive)"
         }
       },
-      "required": ["min_val", "max_val"]
+      "required": [
+        "min_val",
+        "max_val"
+      ]
     },
     "example_user_queries": [
-      "Generate random number between 1 and 100",
-      "Pick a random integer from 10 to 50",
-      "Generate random number"
+      "Call generate_random_number",
+      "Execute generate_random_number function",
+      "How to generate a random integer between min and max (inclusive)?",
+      "How to use generate_random_number?",
+      "Invoke generate_random_number.",
+      "Return result from generate_random_number.",
+      "Run generate_random_number with valid parameters.",
+      "Show an example for generate_random_number.",
+      "Trigger generate_random_number tool.",
+      "Use generate_random_number now."
     ]
   }
 }

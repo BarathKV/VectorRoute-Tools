@@ -17,19 +17,22 @@
           "description": "Name of the destination city"
         }
       },
-      "required": ["city_from", "city_to"]
+      "required": [
+        "city_from",
+        "city_to"
+      ]
     },
     "example_user_queries": [
-      "Distance between New York and London",
-      "How far is Paris from Berlin?",
-      "Calculate distance between Mumbai and Delhi",
-      "Distance between Chennai and Bangalore",
-      "How many kilometers between Tokyo and Osaka?",
-      "Find distance between two cities",
-      "Distance from San Francisco to Los Angeles",
-      "How far is Rome from Milan?",
-      "City-to-city distance calculator",
-      "Calculate travel distance"
+      "Call get_distance_between_cities",
+      "Execute get_distance_between_cities function",
+      "How to calculate distance between two cities?",
+      "How to use get_distance_between_cities?",
+      "Invoke get_distance_between_cities.",
+      "Return result from get_distance_between_cities.",
+      "Run get_distance_between_cities with valid parameters.",
+      "Show an example for get_distance_between_cities.",
+      "Trigger get_distance_between_cities tool.",
+      "Use get_distance_between_cities now."
     ]
   }
 }

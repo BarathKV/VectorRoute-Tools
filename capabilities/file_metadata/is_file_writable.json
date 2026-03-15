@@ -13,12 +13,21 @@
           "description": "Path to the file"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "Is this file writable?",
-      "Check file write permissions",
-      "Can I modify this file?"
+      "Call is_file_writable",
+      "Execute is_file_writable function",
+      "How to check if a file is writable?",
+      "How to use is_file_writable?",
+      "Invoke is_file_writable.",
+      "Return result from is_file_writable.",
+      "Run is_file_writable with valid parameters.",
+      "Show an example for is_file_writable.",
+      "Trigger is_file_writable tool.",
+      "Use is_file_writable now."
     ]
   }
 }

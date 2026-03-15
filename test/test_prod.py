@@ -6,6 +6,15 @@ from unittest.mock import Mock
 
 
 def test_convert_time_zone():
+    """
+    test_convert_time_zone function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     if "dateutil" not in sys.modules:
         fake_dateutil = types.ModuleType("dateutil")
         fake_dateutil.parser = types.SimpleNamespace(

@@ -3,41 +3,36 @@
   "function": {
     "name": "search_metadata",
     "description": "Search documents using file metadata.",
+    "long_description": "Searches document metadata such as filename, size, or last modified date to retrieve matching files.",
+    "domain": "Search & Information Retrieval",
     "parameters": {
       "type": "object",
       "properties": {
-        "metadata_field": { "type": "string" },
-        "value": { "type": "string" }
+        "metadata_field": {
+          "type": "string",
+          "description": "Input parameter: metadata_field"
+        },
+        "value": {
+          "type": "string",
+          "description": "Input parameter: value"
+        }
       },
-      "required": ["metadata_field", "value"]
-    }
-  },
-  "name": "search_metadata",
-  "short_description": "Search documents using file metadata.",
-  "long_description": "Searches document metadata such as filename, size, or last modified date to retrieve matching files.",
-  "domain": "Search & Information Retrieval",
-  "parameters": [
-    {
-      "name": "metadata_field",
-      "type": "string",
-      "description": "Metadata field (filename, size, modified)"
+      "required": [
+        "metadata_field",
+        "value"
+      ]
     },
-    {
-      "name": "value",
-      "type": "string",
-      "description": "Value to match against metadata"
-    }
-  ],
-  "example_user_queries": [
-    "Find documents modified today",
-    "Search files by filename",
-    "Find documents with size greater than 1KB",
-    "Search documents by metadata",
-    "Find files modified recently",
-    "Search metadata for report",
-    "Find files with specific filename",
-    "Search documents by modification date",
-    "Find files with matching metadata",
-    "Retrieve documents using metadata"
-  ]
+    "example_user_queries": [
+      "Call search_metadata",
+      "Execute search_metadata function",
+      "Find documents modified today",
+      "Find documents with size greater than 1KB",
+      "Find files modified recently",
+      "Find files with matching metadata",
+      "Find files with specific filename",
+      "How to use search_metadata?",
+      "Invoke search_metadata.",
+      "Retrieve documents using metadata"
+    ]
+  }
 }

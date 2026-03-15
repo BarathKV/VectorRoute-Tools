@@ -8,6 +8,15 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
 def test_get_historical_weather():
+    """
+    test_get_historical_weather function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.weather.get_historical_weather import get_historical_weather
 
     # Test case 1: Expected output check
@@ -58,6 +67,15 @@ def test_get_historical_weather():
 
 
 def test_get_uv_index():
+    """
+    test_get_uv_index function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.weather.get_uv_index import get_uv_index
 
     # Test case 1: Expected output check
@@ -102,6 +120,15 @@ def test_get_uv_index():
 
 
 def test_get_sunrise_sunset_time():
+    """
+    test_get_sunrise_sunset_time function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.weather.get_sunrise_sunset_time import get_sunrise_sunset_time
 
     # Test case 1: Expected output check

@@ -5,13 +5,14 @@ import html
 def generate_quiz(num_questions: int, category: str = None, difficulty: str = None):
     """
     Generate a quiz using Open Trivia Database (no API key required).
-    
+
     Args:
-        num_questions: Number of questions to generate
-        category: Optional category ID (e.g., 9 for General Knowledge, 18 for Science & Nature)
-        difficulty: Optional difficulty level ('easy', 'medium', 'hard')
-    
-    Returns questions with category, difficulty, and options.
+        num_questions (int): Input parameter.
+        category (str, optional): Input parameter. Defaults to None.
+        difficulty (str, optional): Input parameter. Defaults to None.
+
+    Returns:
+        Any: Function result.
     """
     url = "https://opentdb.com/api.php"
     params = {"amount": num_questions, "type": "multiple"}

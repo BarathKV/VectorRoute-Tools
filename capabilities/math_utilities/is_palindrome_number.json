@@ -13,12 +13,21 @@
           "description": "Integer number to check"
         }
       },
-      "required": ["n"]
+      "required": [
+        "n"
+      ]
     },
     "example_user_queries": [
-      "Is 12321 a palindrome?",
-      "Check if 101 is a palindrome number",
-      "Palindrome number check"
+      "Call is_palindrome_number",
+      "Execute is_palindrome_number function",
+      "How to check if a number is a palindrome?",
+      "How to use is_palindrome_number?",
+      "Invoke is_palindrome_number.",
+      "Return result from is_palindrome_number.",
+      "Run is_palindrome_number with valid parameters.",
+      "Show an example for is_palindrome_number.",
+      "Trigger is_palindrome_number tool.",
+      "Use is_palindrome_number now."
     ]
   }
 }

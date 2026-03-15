@@ -13,12 +13,21 @@
           "description": "Time string in 24-hour format (e.g., '14:30:00')"
         }
       },
-      "required": ["time_string"]
+      "required": [
+        "time_string"
+      ]
     },
     "example_user_queries": [
-      "Convert 14:30:00 to 12-hour format",
-      "Convert military time to standard format",
-      "Convert 24-hour to 12-hour time"
+      "Call convert_to_12_hour",
+      "Execute convert_to_12_hour function",
+      "How to convert 24-hour format time to 12-hour format?",
+      "How to use convert_to_12_hour?",
+      "Invoke convert_to_12_hour.",
+      "Return result from convert_to_12_hour.",
+      "Run convert_to_12_hour with valid parameters.",
+      "Show an example for convert_to_12_hour.",
+      "Trigger convert_to_12_hour tool.",
+      "Use convert_to_12_hour now."
     ]
   }
 }

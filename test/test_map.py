@@ -2,6 +2,15 @@ from unittest.mock import Mock, patch
 
 
 def test_get_route_distance():
+    """
+    test_get_route_distance function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.map.get_route_distance import get_route_distance
 
     mock_response = Mock()
@@ -19,6 +28,15 @@ def test_get_route_distance():
 
 
 def test_reverse_geocode():
+    """
+    test_reverse_geocode function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.map.reverse_geocode import reverse_geocode
 
     mock_response = Mock()

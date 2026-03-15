@@ -13,12 +13,21 @@
           "description": "Path to the file"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "What is the extension of file.txt?",
-      "Get file extension",
-      "Show file type"
+      "Call get_file_extension",
+      "Execute get_file_extension function",
+      "How to get the file extension from a path?",
+      "How to use get_file_extension?",
+      "Invoke get_file_extension.",
+      "Return result from get_file_extension.",
+      "Run get_file_extension with valid parameters.",
+      "Show an example for get_file_extension.",
+      "Trigger get_file_extension tool.",
+      "Use get_file_extension now."
     ]
   }
 }

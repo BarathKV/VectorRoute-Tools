@@ -3,7 +3,13 @@ import requests
 def reverse_geocode(latitude: float, longitude: float):
     """
     Convert latitude and longitude into a human-readable address
-    using Nominatim (OpenStreetMap).
+
+    Args:
+        latitude (float): Input parameter.
+        longitude (float): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     url = "https://nominatim.openstreetmap.org/reverse"
     params = {

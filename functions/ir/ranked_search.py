@@ -3,6 +3,16 @@ import os
 DOCUMENTS_DIR = "documents"
 
 def ranked_search(query: str, limit: int):
+    """
+    ranked_search function.
+
+    Args:
+        query (str): Input parameter.
+        limit (int): Input parameter.
+
+    Returns:
+        Any: Function result.
+    """
     scores = []
 
     query_terms = query.lower().split()

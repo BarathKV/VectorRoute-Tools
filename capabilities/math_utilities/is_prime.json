@@ -13,12 +13,21 @@
           "description": "Integer to check for primality"
         }
       },
-      "required": ["n"]
+      "required": [
+        "n"
+      ]
     },
     "example_user_queries": [
-      "Is 17 a prime number?",
-      "Check if 23 is prime",
-      "Prime number check"
+      "Call is_prime",
+      "Execute is_prime function",
+      "How to check if a number is prime?",
+      "How to use is_prime?",
+      "Invoke is_prime.",
+      "Return result from is_prime.",
+      "Run is_prime with valid parameters.",
+      "Show an example for is_prime.",
+      "Trigger is_prime tool.",
+      "Use is_prime now."
     ]
   }
 }

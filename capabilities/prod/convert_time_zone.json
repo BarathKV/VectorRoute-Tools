@@ -21,19 +21,23 @@
           "description": "Target timezone (e.g., America/New_York)"
         }
       },
-      "required": ["time_str", "from_timezone", "to_timezone"]
+      "required": [
+        "time_str",
+        "from_timezone",
+        "to_timezone"
+      ]
     },
     "example_user_queries": [
-      "Convert 10:00 AM IST to New York time",
-      "What is 3 PM London time in Tokyo?",
-      "Convert time between time zones",
-      "Time zone conversion from IST to PST",
-      "Convert meeting time to my local timezone",
-      "Change time from UTC to EST",
-      "Time zone calculator",
-      "Convert international time",
-      "What time is it in New York when it's 9 AM in India?",
-      "Time conversion tool"
+      "Call convert_time_zone",
+      "Execute convert_time_zone function",
+      "How to convert time between time zones?",
+      "How to use convert_time_zone?",
+      "Invoke convert_time_zone.",
+      "Return result from convert_time_zone.",
+      "Run convert_time_zone with valid parameters.",
+      "Show an example for convert_time_zone.",
+      "Trigger convert_time_zone tool.",
+      "Use convert_time_zone now."
     ]
   }
 }

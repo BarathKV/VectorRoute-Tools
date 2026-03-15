@@ -8,6 +8,15 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
 def test_factorial():
+    """
+    test_factorial function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.factorial import factorial
 
     # Test case 1: Calculate factorial of 5
@@ -28,6 +37,15 @@ def test_factorial():
 
 
 def test_is_prime():
+    """
+    test_is_prime function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.is_prime import is_prime
 
     # Test case 1: Prime number
@@ -52,6 +70,15 @@ def test_is_prime():
 
 
 def test_gcd():
+    """
+    test_gcd function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.gcd import gcd
 
     # Test case 1: GCD of 48 and 18
@@ -69,6 +96,15 @@ def test_gcd():
 
 
 def test_lcm():
+    """
+    test_lcm function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.lcm import lcm
 
     # Test case 1: LCM of 12 and 18
@@ -86,6 +122,15 @@ def test_lcm():
 
 
 def test_fibonacci():
+    """
+    test_fibonacci function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.fibonacci import fibonacci
 
     # Test case 1: Fibonacci at position 6 (0, 1, 1, 2, 3, 5, 8)
@@ -110,6 +155,15 @@ def test_fibonacci():
 
 
 def test_sum_of_digits():
+    """
+    test_sum_of_digits function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.sum_of_digits import sum_of_digits
 
     # Test case 1: Sum of digits in 12345
@@ -130,6 +184,15 @@ def test_sum_of_digits():
 
 
 def test_reverse_number():
+    """
+    test_reverse_number function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.reverse_number import reverse_number
 
     # Test case 1: Reverse 12345
@@ -150,6 +213,15 @@ def test_reverse_number():
 
 
 def test_is_palindrome_number():
+    """
+    test_is_palindrome_number function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.is_palindrome_number import is_palindrome_number
 
     # Test case 1: Palindrome number
@@ -174,6 +246,15 @@ def test_is_palindrome_number():
 
 
 def test_power():
+    """
+    test_power function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.power import power
 
     # Test case 1: 2 to power 8
@@ -199,6 +280,15 @@ def test_power():
 
 
 def test_generate_random_number():
+    """
+    test_generate_random_number function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.math_utilities.generate_random_number import generate_random_number
 
     # Test case 1: Generate random between 1 and 100

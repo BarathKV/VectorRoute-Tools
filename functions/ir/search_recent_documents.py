@@ -4,6 +4,16 @@ import time
 DOCUMENTS_DIR = "documents"
 
 def search_recent_documents(query: str, days: int):
+    """
+    search_recent_documents function.
+
+    Args:
+        query (str): Input parameter.
+        days (int): Input parameter.
+
+    Returns:
+        Any: Function result.
+    """
     results = []
     now = time.time()
     cutoff = days * 86400

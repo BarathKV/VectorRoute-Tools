@@ -4,6 +4,12 @@ import requests
 def summarize_news_by_keyword(keyword: str):
     """
     Fetch recent news articles by keyword and return a short summary.
+
+    Args:
+        keyword (str): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     url = "https://gnews.io/api/v4/search"
     params = {

@@ -13,12 +13,21 @@
           "description": "Path to the file"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "Who owns this file?",
-      "Get file owner",
-      "Show file ownership"
+      "Call get_file_owner",
+      "Execute get_file_owner function",
+      "How to get the owner of a file?",
+      "How to use get_file_owner?",
+      "Invoke get_file_owner.",
+      "Return result from get_file_owner.",
+      "Run get_file_owner with valid parameters.",
+      "Show an example for get_file_owner.",
+      "Trigger get_file_owner tool.",
+      "Use get_file_owner now."
     ]
   }
 }

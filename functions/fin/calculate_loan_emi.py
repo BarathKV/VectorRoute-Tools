@@ -3,9 +3,14 @@ import math
 def calculate_loan_emi(principal: float, annual_interest_rate: float, tenure_years: int):
     """
     Calculate monthly EMI for a loan.
-    Formula:
-    EMI = P * r * (1+r)^n / ((1+r)^n - 1)
-    where r = monthly interest rate, n = number of months
+
+    Args:
+        principal (float): Input parameter.
+        annual_interest_rate (float): Input parameter.
+        tenure_years (int): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     monthly_rate = (annual_interest_rate / 100) / 12
     months = tenure_years * 12

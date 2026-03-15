@@ -13,12 +13,21 @@
           "description": "Path to the file"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "What are the permissions?",
-      "Get file permissions",
-      "Show file access mode"
+      "Call get_file_permissions",
+      "Execute get_file_permissions function",
+      "How to get the permissions of a file?",
+      "How to use get_file_permissions?",
+      "Invoke get_file_permissions.",
+      "Return result from get_file_permissions.",
+      "Run get_file_permissions with valid parameters.",
+      "Show an example for get_file_permissions.",
+      "Trigger get_file_permissions tool.",
+      "Use get_file_permissions now."
     ]
   }
 }

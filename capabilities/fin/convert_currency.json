@@ -21,19 +21,23 @@
           "description": "Amount of money to convert"
         }
       },
-      "required": ["from_currency", "to_currency", "amount"]
+      "required": [
+        "from_currency",
+        "to_currency",
+        "amount"
+      ]
     },
     "example_user_queries": [
-      "Convert 100 USD to INR",
-      "How much is 50 EUR in USD?",
-      "Convert 1000 INR to EUR",
-      "What is the exchange value of 200 GBP in USD?",
-      "Convert currency from USD to JPY",
-      "How much is 75 euros in rupees?",
-      "Exchange 500 dollars to pounds",
-      "Currency conversion from CAD to USD",
-      "Convert money between currencies",
-      "Check exchange rate conversion"
+      "Call convert_currency",
+      "Execute convert_currency function",
+      "How to convert an amount from one currency to another?",
+      "How to use convert_currency?",
+      "Invoke convert_currency.",
+      "Return result from convert_currency.",
+      "Run convert_currency with valid parameters.",
+      "Show an example for convert_currency.",
+      "Trigger convert_currency tool.",
+      "Use convert_currency now."
     ]
   }
 }

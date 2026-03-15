@@ -13,12 +13,21 @@
           "description": "Path to the file"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "When was this file last modified?",
-      "Get file modification time",
-      "Show last updated date"
+      "Call get_file_modified_time",
+      "Execute get_file_modified_time function",
+      "How to get the modification time of a file?",
+      "How to use get_file_modified_time?",
+      "Invoke get_file_modified_time.",
+      "Return result from get_file_modified_time.",
+      "Run get_file_modified_time with valid parameters.",
+      "Show an example for get_file_modified_time.",
+      "Trigger get_file_modified_time tool.",
+      "Use get_file_modified_time now."
     ]
   }
 }

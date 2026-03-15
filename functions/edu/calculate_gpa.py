@@ -1,8 +1,13 @@
 def calculate_gpa(grades: list, credits: list):
     """
     Calculate GPA using weighted average method.
-    grades: list of grade points (e.g., 10, 9, 8, etc.)
-    credits: corresponding list of course credits
+
+    Args:
+        grades (list): Input parameter.
+        credits (list): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     if len(grades) != len(credits):
         raise ValueError("Grades and credits must be of the same length")

@@ -3,6 +3,12 @@ import requests
 def get_weather_alerts_by_region(region: str):
     """
     Get active weather alerts for a region using wttr.in (no API key required).
+
+    Args:
+        region (str): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     url = f"https://wttr.in/{region}?format=j1"
     response = requests.get(url, timeout=10)

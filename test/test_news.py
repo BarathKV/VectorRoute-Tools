@@ -2,6 +2,15 @@ from unittest.mock import Mock, patch
 
 
 def test_get_latest_headlines():
+    """
+    test_get_latest_headlines function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.news.get_latest_headlines import get_latest_headlines
 
     mock_response = Mock()
@@ -28,6 +37,15 @@ def test_get_latest_headlines():
 
 
 def test_get_trending_topics():
+    """
+    test_get_trending_topics function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.news.get_trending_topics import get_trending_topics
 
     mock_response = Mock()
@@ -52,6 +70,15 @@ def test_get_trending_topics():
 
 
 def test_summarize_news_by_keyword():
+    """
+    test_summarize_news_by_keyword function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.news.summarize_news_by_keyword import summarize_news_by_keyword
 
     mock_response = Mock()

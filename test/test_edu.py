@@ -7,6 +7,15 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
 def test_calculate_gpa():
+    """
+    test_calculate_gpa function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.edu.calculate_gpa import calculate_gpa
 
     # Test case 1: Basic case
@@ -35,6 +44,15 @@ def test_calculate_gpa():
 
 
 def test_generate_quiz():
+    """
+    test_generate_quiz function.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
+    """
     from functions.edu.generate_quiz import generate_quiz
 
     # Test case 1: Basic case with difficulty parameter

@@ -21,19 +21,23 @@
           "description": "Loan tenure in years"
         }
       },
-      "required": ["principal", "annual_interest_rate", "tenure_years"]
+      "required": [
+        "principal",
+        "annual_interest_rate",
+        "tenure_years"
+      ]
     },
     "example_user_queries": [
-      "Calculate EMI for a loan of 10 lakhs at 8% for 20 years",
-      "What is the monthly EMI for a home loan?",
-      "EMI for 500000 loan at 7.5% interest",
-      "Calculate loan EMI",
-      "How much EMI do I need to pay monthly?",
-      "Loan repayment calculator",
-      "Monthly EMI for car loan",
-      "Calculate interest and EMI for loan",
-      "What is the EMI for my loan?",
-      "Loan EMI calculation"
+      "Call calculate_loan_emi",
+      "Execute calculate_loan_emi function",
+      "How to calculate the monthly emi for a loan?",
+      "How to use calculate_loan_emi?",
+      "Invoke calculate_loan_emi.",
+      "Return result from calculate_loan_emi.",
+      "Run calculate_loan_emi with valid parameters.",
+      "Show an example for calculate_loan_emi.",
+      "Trigger calculate_loan_emi tool.",
+      "Use calculate_loan_emi now."
     ]
   }
 }

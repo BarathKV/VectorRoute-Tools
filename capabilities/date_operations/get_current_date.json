@@ -2,7 +2,7 @@
   "type": "function",
   "function": {
     "name": "get_current_date",
-    "description": "Get today's current date.",
+    "description": "Get today's date.",
     "long_description": "Retrieves the current date in YYYY-MM-DD format along with year, month, and day components.",
     "domain": "Date Operations",
     "parameters": {
@@ -11,9 +11,16 @@
       "required": []
     },
     "example_user_queries": [
-      "What is today's date?",
-      "Get current date",
-      "Show today's date"
+      "Call get_current_date",
+      "Call get_current_date function.",
+      "Execute get_current_date and return date fields.",
+      "Execute get_current_date function",
+      "Fetch today's calendar date.",
+      "Get current date now.",
+      "Give today's date components.",
+      "How to use get_current_date?",
+      "I need the current date value.",
+      "Invoke get_current_date."
     ]
   }
 }

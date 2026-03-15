@@ -17,12 +17,21 @@
           "description": "Date format string (default: %Y-%m-%d)"
         }
       },
-      "required": ["date"]
+      "required": [
+        "date"
+      ]
     },
     "example_user_queries": [
-      "What is the day of year for 2025-02-28?",
-      "Get ordinal day number in the year",
-      "Is this a leap year?"
+      "Call get_day_of_year",
+      "Call get_day_of_year with date 15/08/2026 and format %d/%m/%Y.",
+      "Check day index of 2026-11-30.",
+      "Compute day-of-year value for 2020-02-29.",
+      "Execute get_day_of_year and include leap year info.",
+      "Execute get_day_of_year function",
+      "Find ordinal day for 2025-01-01.",
+      "Get day of year for 2024-12-31.",
+      "How many days into the year is 2023-07-04?",
+      "How to use get_day_of_year?"
     ]
   }
 }

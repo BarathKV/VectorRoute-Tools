@@ -17,12 +17,22 @@
           "description": "Second integer"
         }
       },
-      "required": ["a", "b"]
+      "required": [
+        "a",
+        "b"
+      ]
     },
     "example_user_queries": [
-      "Find GCD of 48 and 18",
-      "Greatest common divisor of 100 and 75",
-      "Calculate GCD"
+      "Call gcd",
+      "Execute gcd function",
+      "How to calculate the greatest common divisor of two numbers?",
+      "How to use gcd?",
+      "Invoke gcd.",
+      "Return result from gcd.",
+      "Run gcd with valid parameters.",
+      "Show an example for gcd.",
+      "Trigger gcd tool.",
+      "Use gcd now."
     ]
   }
 }

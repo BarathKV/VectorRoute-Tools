@@ -13,12 +13,21 @@
           "description": "Path to the file"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "Is this file readable?",
-      "Check file read permissions",
-      "Can I read this file?"
+      "Call is_file_readable",
+      "Execute is_file_readable function",
+      "How to check if a file is readable?",
+      "How to use is_file_readable?",
+      "Invoke is_file_readable.",
+      "Return result from is_file_readable.",
+      "Run is_file_readable with valid parameters.",
+      "Show an example for is_file_readable.",
+      "Trigger is_file_readable tool.",
+      "Use is_file_readable now."
     ]
   }
 }

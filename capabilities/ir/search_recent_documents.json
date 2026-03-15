@@ -3,41 +3,36 @@
   "function": {
     "name": "search_recent_documents",
     "description": "Search recently modified documents.",
+    "long_description": "Retrieves documents that were modified recently and contain the specified search query.",
+    "domain": "Search & Information Retrieval",
     "parameters": {
       "type": "object",
       "properties": {
-        "query": { "type": "string" },
-        "days": { "type": "integer" }
+        "query": {
+          "type": "string",
+          "description": "Input parameter: query"
+        },
+        "days": {
+          "type": "integer",
+          "description": "Input parameter: days"
+        }
       },
-      "required": ["query", "days"]
-    }
-  },
-  "name": "search_recent_documents",
-  "short_description": "Search recently modified documents.",
-  "long_description": "Retrieves documents that were modified recently and contain the specified search query.",
-  "domain": "Search & Information Retrieval",
-  "parameters": [
-    {
-      "name": "query",
-      "type": "string",
-      "description": "Search keyword"
+      "required": [
+        "query",
+        "days"
+      ]
     },
-    {
-      "name": "days",
-      "type": "integer",
-      "description": "Number of days to look back"
-    }
-  ],
-  "example_user_queries": [
-    "Find documents modified in the last 2 days",
-    "Search recent files for errors",
-    "Find recently updated reports",
-    "Search recently changed documents",
-    "Get new documents related to login",
-    "Find files updated recently",
-    "Search recent documents for database",
-    "Retrieve documents changed this week",
-    "Find latest modified files",
-    "Search new files containing issues"
-  ]
+    "example_user_queries": [
+      "Call search_recent_documents",
+      "Execute search_recent_documents function",
+      "Find documents modified in the last 2 days",
+      "Find files updated recently",
+      "Find latest modified files",
+      "Find recently updated reports",
+      "Get new documents related to login",
+      "How to use search_recent_documents?",
+      "Invoke search_recent_documents.",
+      "Retrieve documents changed this week"
+    ]
+  }
 }

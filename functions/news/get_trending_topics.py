@@ -5,7 +5,12 @@ from collections import Counter
 def get_trending_topics():
     """
     Get trending news topics based on keyword frequency
-    from recent headlines using GNews.
+
+    Args:
+        None
+
+    Returns:
+        Any: Function result.
     """
     url = "https://gnews.io/api/v4/top-headlines"
     params = {

@@ -21,12 +21,21 @@
           "description": "Output time format (default: %I:%M:%S %p)"
         }
       },
-      "required": ["time_string"]
+      "required": [
+        "time_string"
+      ]
     },
     "example_user_queries": [
-      "Convert 14:30:00 to 12-hour format",
-      "Reformat time string",
-      "Convert time format"
+      "Call convert_time_format",
+      "Execute convert_time_format function",
+      "How to convert a time string from one format to another?",
+      "How to use convert_time_format?",
+      "Invoke convert_time_format.",
+      "Return result from convert_time_format.",
+      "Run convert_time_format with valid parameters.",
+      "Show an example for convert_time_format.",
+      "Trigger convert_time_format tool.",
+      "Use convert_time_format now."
     ]
   }
 }

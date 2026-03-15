@@ -4,7 +4,7 @@
     "name": "get_market_movers",
     "description": "Get top gainers and losers from a stock watchlist.",
     "long_description": "Retrieves daily market movers from a predefined stock watchlist and returns top gainers and top losers based on percentage price change.",
-    "domain": "Stock & Crypto",
+    "domain": "Stock Market",
     "parameters": {
       "type": "object",
       "properties": {
@@ -16,11 +16,16 @@
       "required": []
     },
     "example_user_queries": [
-      "Show today's market movers",
-      "Get top 5 gainers and losers",
-      "Who are the biggest losers in my watchlist?",
-      "Give me top stock gainers today",
-      "Show me daily movers"
+      "Call get_market_movers",
+      "Execute get_market_movers function",
+      "How to get top gainers and losers from a stock watchlist?",
+      "How to use get_market_movers?",
+      "Invoke get_market_movers.",
+      "Return result from get_market_movers.",
+      "Run get_market_movers with valid parameters.",
+      "Show an example for get_market_movers.",
+      "Trigger get_market_movers tool.",
+      "Use get_market_movers now."
     ]
   }
 }

@@ -4,7 +4,7 @@
     "name": "get_historical_weather",
     "description": "Get historical weather for a city on a specific date.",
     "long_description": "Retrieves historical daily weather summary including min/max/average temperature, precipitation, and weather code for a specified city and date using an external weather API.",
-    "domain": "Weather",
+    "domain": "General Utilities",
     "parameters": {
       "type": "object",
       "properties": {
@@ -17,14 +17,22 @@
           "description": "Date in YYYY-MM-DD format"
         }
       },
-      "required": ["city", "date"]
+      "required": [
+        "city",
+        "date"
+      ]
     },
     "example_user_queries": [
-      "Show historical weather for London on 2025-01-10",
-      "Get New York weather data for 2024-12-25",
-      "What was the weather in Chennai on 2025-06-01?",
-      "Historical weather for Paris on 2025-03-15",
-      "Give me yesterday's weather in Berlin"
+      "Call get_historical_weather",
+      "Execute get_historical_weather function",
+      "How to get historical weather for a city on a specific date?",
+      "How to use get_historical_weather?",
+      "Invoke get_historical_weather.",
+      "Return result from get_historical_weather.",
+      "Run get_historical_weather with valid parameters.",
+      "Show an example for get_historical_weather.",
+      "Trigger get_historical_weather tool.",
+      "Use get_historical_weather now."
     ]
   }
 }

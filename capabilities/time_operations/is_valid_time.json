@@ -17,12 +17,21 @@
           "description": "Time format to validate against (default: %H:%M:%S)"
         }
       },
-      "required": ["time_string"]
+      "required": [
+        "time_string"
+      ]
     },
     "example_user_queries": [
-      "Is 14:30:00 a valid time?",
-      "Validate time format",
-      "Check if time is valid"
+      "Call is_valid_time",
+      "Execute is_valid_time function",
+      "How to check if a time string is valid in a given format?",
+      "How to use is_valid_time?",
+      "Invoke is_valid_time.",
+      "Return result from is_valid_time.",
+      "Run is_valid_time with valid parameters.",
+      "Show an example for is_valid_time.",
+      "Trigger is_valid_time tool.",
+      "Use is_valid_time now."
     ]
   }
 }

@@ -3,35 +3,31 @@
   "function": {
     "name": "search_documents_by_title",
     "description": "Search documents by title.",
+    "long_description": "Searches document titles to retrieve documents matching or similar to a given title.",
+    "domain": "Search & Information Retrieval",
     "parameters": {
       "type": "object",
       "properties": {
-        "title_query": { "type": "string" }
+        "title_query": {
+          "type": "string",
+          "description": "Input parameter: title_query"
+        }
       },
-      "required": ["title_query"]
-    }
-  },
-  "name": "search_documents_by_title",
-  "short_description": "Search documents by title.",
-  "long_description": "Searches document titles to retrieve documents matching or similar to a given title.",
-  "domain": "Search & Information Retrieval",
-  "parameters": [
-    {
-      "name": "title_query",
-      "type": "string",
-      "description": "Title or partial title"
-    }
-  ],
-  "example_user_queries": [
-    "Find documents titled sales report",
-    "Search files named meeting notes",
-    "Look for report titled annual summary",
-    "Find document with title project plan",
-    "Search documents by title",
-    "Find files named audit",
-    "Search reports titled budget",
-    "Look up document by title",
-    "Find document with specific title",
-    "Search titles for analysis report"
-  ]
+      "required": [
+        "title_query"
+      ]
+    },
+    "example_user_queries": [
+      "Call search_documents_by_title",
+      "Execute search_documents_by_title function",
+      "Find document with specific title",
+      "Find document with title project plan",
+      "Find documents titled sales report",
+      "Find files named audit",
+      "How to use search_documents_by_title?",
+      "Invoke search_documents_by_title.",
+      "Look for report titled annual summary",
+      "Look up document by title"
+    ]
+  }
 }

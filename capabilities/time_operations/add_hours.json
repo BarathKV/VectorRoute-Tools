@@ -21,12 +21,22 @@
           "description": "Time format (default: %H:%M:%S)"
         }
       },
-      "required": ["time_string", "hours"]
+      "required": [
+        "time_string",
+        "hours"
+      ]
     },
     "example_user_queries": [
-      "Add 3 hours to 14:30:00",
-      "What time will it be in 5 hours?",
-      "Add hours to time"
+      "Call add_hours",
+      "Execute add_hours function",
+      "How to add hours to a given time?",
+      "How to use add_hours?",
+      "Invoke add_hours.",
+      "Return result from add_hours.",
+      "Run add_hours with valid parameters.",
+      "Show an example for add_hours.",
+      "Trigger add_hours tool.",
+      "Use add_hours now."
     ]
   }
 }

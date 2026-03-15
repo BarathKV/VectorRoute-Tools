@@ -17,13 +17,22 @@
           "description": "Exponent"
         }
       },
-      "required": ["base", "exponent"]
+      "required": [
+        "base",
+        "exponent"
+      ]
     },
     "example_user_queries": [
-      "Calculate 2 to the power of 8",
-      "What is 5^3?",
-      "Compute power",
-      "Base raised to exponent"
+      "Call power",
+      "Execute power function",
+      "How to calculate base raised to the power of exponent?",
+      "How to use power?",
+      "Invoke power.",
+      "Return result from power.",
+      "Run power with valid parameters.",
+      "Show an example for power.",
+      "Trigger power tool.",
+      "Use power now."
     ]
   }
 }

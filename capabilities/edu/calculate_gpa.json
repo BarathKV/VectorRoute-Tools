@@ -23,19 +23,22 @@
           }
         }
       },
-      "required": ["grades", "credits"]
+      "required": [
+        "grades",
+        "credits"
+      ]
     },
     "example_user_queries": [
-      "Calculate my GPA",
-      "Find GPA for my semester",
-      "Compute GPA using grades and credits",
-      "What is my GPA?",
-      "Calculate GPA for these subjects",
-      "GPA calculator",
-      "Find grade point average",
-      "Compute semester GPA",
-      "Calculate academic GPA",
-      "What is my college GPA?"
+      "Call calculate_gpa",
+      "Execute calculate_gpa function",
+      "How to calculate grade point average (gpa)?",
+      "How to use calculate_gpa?",
+      "Invoke calculate_gpa.",
+      "Return result from calculate_gpa.",
+      "Run calculate_gpa with valid parameters.",
+      "Show an example for calculate_gpa.",
+      "Trigger calculate_gpa tool.",
+      "Use calculate_gpa now."
     ]
   }
 }

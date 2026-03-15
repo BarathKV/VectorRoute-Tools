@@ -1,7 +1,13 @@
 def calculate_bmi(weight_kg: float, height_cm: float):
     """
     Calculate Body Mass Index (BMI).
-    BMI = weight (kg) / (height (m))^2
+
+    Args:
+        weight_kg (float): Input parameter.
+        height_cm (float): Input parameter.
+
+    Returns:
+        Any: Function result.
     """
     height_m = height_cm / 100
 

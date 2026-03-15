@@ -5,8 +5,11 @@ def get_current_datetime():
     """
     Get current date and time with timestamp details.
 
+    Args:
+        None
+
     Returns:
-        dict: Dictionary containing current datetime, timestamp, and time component details
+        Any: Function result.
     """
     now = datetime.now()
     return {

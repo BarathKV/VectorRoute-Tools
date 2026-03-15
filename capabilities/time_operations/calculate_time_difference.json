@@ -21,12 +21,22 @@
           "description": "Time format (default: %H:%M:%S)"
         }
       },
-      "required": ["t1", "t2"]
+      "required": [
+        "t1",
+        "t2"
+      ]
     },
     "example_user_queries": [
-      "How much time between 10:30:00 and 14:30:00?",
-      "Calculate time difference",
-      "Duration between two times"
+      "Call calculate_time_difference",
+      "Execute calculate_time_difference function",
+      "How to calculate the difference in hours, minutes, and seconds between two times?",
+      "How to use calculate_time_difference?",
+      "Invoke calculate_time_difference.",
+      "Return result from calculate_time_difference.",
+      "Run calculate_time_difference with valid parameters.",
+      "Show an example for calculate_time_difference.",
+      "Trigger calculate_time_difference tool.",
+      "Use calculate_time_difference now."
     ]
   }
 }

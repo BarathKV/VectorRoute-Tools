@@ -13,12 +13,21 @@
           "description": "Relative or absolute path"
         }
       },
-      "required": ["path"]
+      "required": [
+        "path"
+      ]
     },
     "example_user_queries": [
-      "What is the absolute path?",
-      "Get full path for file",
-      "Show absolute path"
+      "Call get_absolute_path",
+      "Execute get_absolute_path function",
+      "How to get the absolute path of a file or directory?",
+      "How to use get_absolute_path?",
+      "Invoke get_absolute_path.",
+      "Return result from get_absolute_path.",
+      "Run get_absolute_path with valid parameters.",
+      "Show an example for get_absolute_path.",
+      "Trigger get_absolute_path tool.",
+      "Use get_absolute_path now."
     ]
   }
 }

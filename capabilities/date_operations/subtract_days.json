@@ -2,8 +2,8 @@
   "type": "function",
   "function": {
     "name": "subtract_days",
-    "description": "Subtract days from a given date.",
-    "long_description": "Calculates a new date by subtracting a specified number of days from a given date.",
+    "description": "Subtract N days from a given date.",
+    "long_description": "Parses an input date and returns the resulting date after subtracting a specified number of days.",
     "domain": "Date Operations",
     "parameters": {
       "type": "object",
@@ -21,12 +21,22 @@
           "description": "Date format string (default: %Y-%m-%d)"
         }
       },
-      "required": ["date", "n"]
+      "required": [
+        "date",
+        "n"
+      ]
     },
     "example_user_queries": [
-      "What was the date 10 days before 2025-02-28?",
-      "Subtract 14 days from a date",
-      "Subtract days from date"
+      "Calculate a new date by removing 90 days from 2023-06-01.",
+      "Call subtract_days",
+      "Call subtract_days with date 15/03/2026, n 10, date_format %d/%m/%Y.",
+      "Execute subtract_days for 2026-11-28 minus 2 days.",
+      "Execute subtract_days function",
+      "Get the resulting date after subtracting 3 days from 2026-07-04.",
+      "How to use subtract_days?",
+      "If I subtract 365 days from 2021-03-01, what is the result?",
+      "Invoke subtract_days.",
+      "Return result from subtract_days."
     ]
   }
 }

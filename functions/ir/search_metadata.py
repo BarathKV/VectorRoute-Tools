@@ -4,6 +4,16 @@ import time
 DOCUMENTS_DIR = "documents"
 
 def search_metadata(metadata_field: str, value: str):
+    """
+    search_metadata function.
+
+    Args:
+        metadata_field (str): Input parameter.
+        value (str): Input parameter.
+
+    Returns:
+        Any: Function result.
+    """
     results = []
 
     for filename in os.listdir(DOCUMENTS_DIR):

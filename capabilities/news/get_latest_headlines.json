@@ -13,19 +13,21 @@
           "description": "News category (e.g., technology, business, sports, health)"
         }
       },
-      "required": ["category"]
+      "required": [
+        "category"
+      ]
     },
     "example_user_queries": [
-      "Show me the latest technology news",
-      "Get business headlines",
-      "Latest sports news",
-      "What’s happening in health news?",
-      "Show current news headlines",
-      "Top headlines in technology",
-      "Latest updates in business",
-      "News headlines by category",
-      "Get today's top news",
-      "Show recent news articles"
+      "Call get_latest_headlines",
+      "Execute get_latest_headlines function",
+      "How to get latest news headlines by category?",
+      "How to use get_latest_headlines?",
+      "Invoke get_latest_headlines.",
+      "Return result from get_latest_headlines.",
+      "Run get_latest_headlines with valid parameters.",
+      "Show an example for get_latest_headlines.",
+      "Trigger get_latest_headlines tool.",
+      "Use get_latest_headlines now."
     ]
   }
 }

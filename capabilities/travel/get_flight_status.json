@@ -13,19 +13,21 @@
           "description": "Aircraft callsign (e.g., AAL123, DLH456)"
         }
       },
-      "required": ["callsign"]
+      "required": [
+        "callsign"
+      ]
     },
     "example_user_queries": [
-      "Check flight status for AAL123",
-      "Is flight DLH456 currently flying?",
-      "Track flight using callsign",
-      "Get live status of flight AAL101",
-      "Where is flight IAE789 right now?",
-      "Check if flight is airborne",
-      "Live flight tracking",
-      "Flight status lookup",
-      "Track aircraft by callsign",
-      "Get current flight location"
+      "Call get_flight_status",
+      "Execute get_flight_status function",
+      "How to get live flight status using aircraft callsign?",
+      "How to use get_flight_status?",
+      "Invoke get_flight_status.",
+      "Return result from get_flight_status.",
+      "Run get_flight_status with valid parameters.",
+      "Show an example for get_flight_status.",
+      "Trigger get_flight_status tool.",
+      "Use get_flight_status now."
     ]
   }
 }
