@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call is_leap_year",
+      "Call is_leap_year for the year 2020.",
       "Call is_leap_year with year 1900.",
       "Check if year 2100 is leap or not.",
       "Does 2400 have 366 days?",
       "Execute is_leap_year for 1996.",
-      "Execute is_leap_year function",
+      "is 1984 a leap year?",
       "Find days_in_year for 2020.",
       "How to use is_leap_year?",
       "I need leap year status for 2025.",
-      "Invoke is_leap_year."
+      "Determine if 2000 is a leap year."
     ]
   }
 }

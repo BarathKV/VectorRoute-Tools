@@ -28,12 +28,12 @@
     },
     "example_user_queries": [
       "Calculate date difference from 2025-06-15 to 2025-07-01.",
-      "Call calculate_date_difference",
+      "find the day difference between 2026-01-01 and 2026-12-31.",
       "Call calculate_date_difference with date1 01/04/2026 and date2 15/04/2026 using %d/%m/%Y.",
       "Compare 2026-11-01 and 2026-11-30 in days.",
       "Compute days between 2020-02-29 and 2021-02-28.",
-      "Execute calculate_date_difference function",
-      "Execute calculate_date_difference with two input dates.",
+      "Calculate the number of days between 2023-01-01 and 2023-12-31.",
+      "Determine the day gap between 2024-05-10 and 2024-06-10.",
       "Find day gap for 2026-07-04 and 2026-07-14.",
       "Get absolute days between 2023-03-10 and 2023-02-01.",
       "How many days are between 2026-01-01 and 2026-01-31?"

@@ -28,15 +28,15 @@
     },
     "example_user_queries": [
       "Calculate a new date by removing 90 days from 2023-06-01.",
-      "Call subtract_days",
+      "what is the date 45 days before 2024-01-15?",
       "Call subtract_days with date 15/03/2026, n 10, date_format %d/%m/%Y.",
       "Execute subtract_days for 2026-11-28 minus 2 days.",
-      "Execute subtract_days function",
+      "by using subtract_days, find the date 100 days before 2025-05-20.",
       "Get the resulting date after subtracting 3 days from 2026-07-04.",
-      "How to use subtract_days?",
+      "Determine the date that is 60 days before 2024-12-31.",
       "If I subtract 365 days from 2021-03-01, what is the result?",
-      "Invoke subtract_days.",
-      "Return result from subtract_days."
+      "find the date 30 days before 2022-01-15.",
+      "Return the date that is 15 days before 2023-12-31."
     ]
   }
 }

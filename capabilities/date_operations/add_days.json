@@ -30,13 +30,13 @@
       "Add 14 days to 2026-10-20 using %Y-%m-%d format.",
       "Add 7 days to 2026-03-14.",
       "Calculate a new date by adding 90 days to 2023-01-01.",
-      "Call add_days",
       "Call add_days with date 15/03/2026, n 10, date_format %d/%m/%Y.",
       "Execute add_days for 2026-11-28 plus 2 days.",
-      "Execute add_days function",
       "Get the resulting date after adding 3 days to 2026-07-04.",
-      "How to use add_days?",
-      "If I add 365 days to 2020-02-29, what is the result?"
+      "If I add 365 days to 2020-02-29, what is the result?",
+      "Add 30 days to 2026-12-01 and return the new date.",
+      "Use add_days to find the date 45 days after 2026-05-15.",
+      "What date will it be if I add 60 days to 2026-08-01?"
     ]
   }
 }

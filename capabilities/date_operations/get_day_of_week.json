@@ -22,16 +22,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_day_of_week",
       "Call get_day_of_week with date 15/08/2026 and format %d/%m/%Y.",
+      "find the day of the week for 2026-07-04.",
       "Check day of week for 2026-11-20.",
       "Execute get_day_of_week for 2026-10-31.",
-      "Execute get_day_of_week function",
+      "whats the day of the week for 2026-07-04?",
       "Find weekday name and number for 2026-12-25.",
       "Get ISO weekday for date 2026-09-09.",
       "Get weekday for 2025-01-01.",
-      "How to use get_day_of_week?",
-      "Invoke get_day_of_week."
+      "Determine the day of the week for 2026-08-15.",
+      "What is the day of the week for 2026-08-15 in format %Y-%m-%d?"
     ]
   }
 }

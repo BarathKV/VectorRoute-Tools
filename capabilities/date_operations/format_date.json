@@ -26,7 +26,7 @@
       ]
     },
     "example_user_queries": [
-      "Call format_date",
+      "Call format_date with date 2024-01-01 and output format %B %d, %Y.",
       "Call format_date for 2024-02-29 into %a, %b %d %Y.",
       "Change 14-03-2026 from %d-%m-%Y to %Y/%m/%d.",
       "Convert date 2025-12-31 to %B %d, %Y.",
