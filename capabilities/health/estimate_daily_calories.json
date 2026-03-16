@@ -38,16 +38,16 @@
       ]
     },
     "example_user_queries": [
-      "Call estimate_daily_calories",
-      "Execute estimate_daily_calories function",
-      "How to estimate daily calorie requirements?",
-      "How to use estimate_daily_calories?",
-      "Invoke estimate_daily_calories.",
-      "Return result from estimate_daily_calories.",
-      "Run estimate_daily_calories with valid parameters.",
-      "Show an example for estimate_daily_calories.",
-      "Trigger estimate_daily_calories tool.",
-      "Use estimate_daily_calories now."
+      "Estimate daily calories for a 30-year-old male, 78 kg, 175 cm, moderately active.",
+      "How many calories does a 26-year-old female at 62 kg, 168 cm, lightly active need per day?",
+      "Calculate daily calorie needs for gender male, age 41, weight 85 kg, height 182 cm, activity level sedentary.",
+      "Find maintenance calories for a 35-year-old female who is 70 kg, 170 cm, and very active.",
+      "Estimate calories for a 29-year-old male, 92 kg, 188 cm, activity level active.",
+      "Work out daily calorie requirements for a 22-year-old female, 54 kg, 160 cm, moderately active.",
+      "How many calories should a 48-year-old male at 81 kg and 176 cm eat if activity level is lightly active?",
+      "Calculate calorie needs for a 33-year-old female, 66 kg, 164 cm, sedentary lifestyle.",
+      "Estimate daily calories with gender female, age 27, weight_kg 58, height_cm 162, activity_level active.",
+      "Give me the daily calorie estimate for a 39-year-old male, 74 kg, 173 cm, very active."
     ]
   }
 }

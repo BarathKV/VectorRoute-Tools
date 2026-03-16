@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_file_extension",
-      "Execute get_file_extension function",
-      "How to get the file extension from a path?",
-      "How to use get_file_extension?",
-      "Invoke get_file_extension.",
-      "Return result from get_file_extension.",
-      "Run get_file_extension with valid parameters.",
-      "Show an example for get_file_extension.",
-      "Trigger get_file_extension tool.",
-      "Use get_file_extension now."
+      "What is the file extension of ./README.md?",
+      "Get the extension for ./capabilities/travel/get_distance_between_cities.json.",
+      "Tell me the extension of /tmp/archive.tar.gz.",
+      "Find the file extension for ./capabilities/news/get_trending_topics.json.",
+      "Show the extension of ./capabilities/map/get_route_distance.json.",
+      "What extension does ./capabilities/stock/compare_stocks.json use?",
+      "Check the extension on ./capabilities/time_operations/convert_to_24_hour.json.",
+      "Return the file extension for ./capabilities/maths/percentage_calc.json.",
+      "Identify the extension of ./capabilities/health/estimate_daily_calories.json.",
+      "Give me the extension for ./capabilities/ir/keyword_search.json."
     ]
   }
 }

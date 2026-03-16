@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_sunrise_sunset_time",
-      "Execute get_sunrise_sunset_time function",
-      "How to get sunrise and sunset times for a city?",
-      "How to use get_sunrise_sunset_time?",
-      "Invoke get_sunrise_sunset_time.",
-      "Return result from get_sunrise_sunset_time.",
-      "Run get_sunrise_sunset_time with valid parameters.",
-      "Show an example for get_sunrise_sunset_time.",
-      "Trigger get_sunrise_sunset_time tool.",
-      "Use get_sunrise_sunset_time now."
+      "What time is sunrise and sunset in Bengaluru?",
+      "Show sunrise and sunset times for New York.",
+      "Get today\u2019s sunrise and sunset for London.",
+      "Tell me the sunrise and sunset time in Tokyo.",
+      "Fetch sunrise and sunset details for Sydney.",
+      "What are the sunrise and sunset times for Dubai?",
+      "Show the sun timings for Toronto.",
+      "Get sunrise and sunset information for Singapore.",
+      "Check sunrise and sunset for San Francisco.",
+      "Return sunrise and sunset using city Paris."
     ]
   }
 }

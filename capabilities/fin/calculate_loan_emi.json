@@ -28,16 +28,16 @@
       ]
     },
     "example_user_queries": [
-      "Call calculate_loan_emi",
-      "Execute calculate_loan_emi function",
-      "How to calculate the monthly emi for a loan?",
-      "How to use calculate_loan_emi?",
-      "Invoke calculate_loan_emi.",
-      "Return result from calculate_loan_emi.",
-      "Run calculate_loan_emi with valid parameters.",
-      "Show an example for calculate_loan_emi.",
-      "Trigger calculate_loan_emi tool.",
-      "Use calculate_loan_emi now."
+      "Calculate the EMI for a loan of 500000 at 8.5% annual interest for 5 years.",
+      "What is the monthly EMI for 1200000 with a 9.2% rate over 15 years?",
+      "Find the EMI for a principal of 250000, interest rate 7.75%, and tenure 3 years.",
+      "Compute my loan EMI for 900000 at 10% per year for 20 years.",
+      "If I borrow 350000 at 6.9% for 4 years, what will the EMI be?",
+      "Work out the EMI on a 750000 loan with 11.5% annual interest and 10 years tenure.",
+      "Show the EMI for principal 2000000, annual interest 8.1, tenure 25 years.",
+      "How much do I pay monthly for a 650000 loan at 9% over 7 years?",
+      "Calculate loan EMI using principal 425000, annual_interest_rate 12.5, tenure_years 2.",
+      "Estimate the monthly installment for 1500000 at 7.2% across 12 years."
     ]
   }
 }

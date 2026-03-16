@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call search_recent_documents",
-      "Execute search_recent_documents function",
-      "Find documents modified in the last 2 days",
-      "Find files updated recently",
-      "Find latest modified files",
-      "Find recently updated reports",
-      "Get new documents related to login",
-      "How to use search_recent_documents?",
-      "Invoke search_recent_documents.",
-      "Retrieve documents changed this week"
+      "Search for \"release checklist\" in documents from the last 7 days.",
+      "Find recent documents about \"customer escalations\" from the past 30 days.",
+      "Search for \"incident response\" in files added within 14 days.",
+      "Look up \"quarterly planning\" in documents from the last 60 days.",
+      "Search recent documents for \"security audit\" over the past 10 days.",
+      "Find documents mentioning \"warehouse inventory\" from the last 21 days.",
+      "Search for \"design review\" in docs created in the last 5 days.",
+      "Look for recent matches on \"pricing update\" within 45 days.",
+      "Search documents from the past 90 days for \"board meeting\".",
+      "Run a recent document search for query \"API deprecation\" and days 15."
     ]
   }
 }

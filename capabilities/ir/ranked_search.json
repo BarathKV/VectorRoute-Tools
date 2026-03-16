@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call ranked_search",
-      "Execute ranked_search function",
-      "Find highest relevance documents",
-      "Find most relevant reports about database",
-      "Get best matches for login issue",
-      "Get top documents related to error",
-      "How to use ranked_search?",
-      "Invoke ranked_search.",
-      "Rank files based on content",
-      "Rank search results"
+      "Run a ranked search for \"authentication failure\" with limit 5.",
+      "Find the top 10 results for \"quarterly revenue dashboard\".",
+      "Search for \"network timeout\" and return the best 3 matches.",
+      "Rank results for \"employee reimbursement policy\" with a limit of 8.",
+      "Give me the top 6 matches for \"disaster recovery plan\".",
+      "Search \"shipping delay\" and keep the top 4 results.",
+      "Return the highest ranked 7 documents for \"customer churn analysis\".",
+      "Do a ranked search for \"billing integration\" limited to 5.",
+      "Find the top 9 results for \"SOC 2 controls\".",
+      "Search for \"mobile app crash\" with limit 12."
     ]
   }
 }

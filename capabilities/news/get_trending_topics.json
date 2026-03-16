@@ -11,16 +11,16 @@
       "required": []
     },
     "example_user_queries": [
-      "Call get_trending_topics",
-      "Execute get_trending_topics function",
-      "How to get trending news topics?",
-      "How to use get_trending_topics?",
-      "Invoke get_trending_topics.",
-      "Return result from get_trending_topics.",
-      "Run get_trending_topics with valid parameters.",
-      "Show an example for get_trending_topics.",
-      "Trigger get_trending_topics tool.",
-      "Use get_trending_topics now."
+      "What topics are trending in the news right now?",
+      "Show me the current trending news topics.",
+      "List the top trending topics today.",
+      "What stories are getting the most attention in the news?",
+      "Give me the trending headlines people are following.",
+      "Show the latest popular news topics.",
+      "What are the hottest news trends at the moment?",
+      "Fetch the top trending subjects in the news.",
+      "Tell me which topics are currently trending.",
+      "Get the most discussed news topics right now."
     ]
   }
 }

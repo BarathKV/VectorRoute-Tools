@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call convert_to_24_hour",
-      "Execute convert_to_24_hour function",
-      "How to convert 12-hour format time to 24-hour format?",
-      "How to use convert_to_24_hour?",
-      "Invoke convert_to_24_hour.",
-      "Return result from convert_to_24_hour.",
-      "Run convert_to_24_hour with valid parameters.",
-      "Show an example for convert_to_24_hour.",
-      "Trigger convert_to_24_hour tool.",
-      "Use convert_to_24_hour now."
+      "Convert 7:30 PM to 24-hour format.",
+      "Change 12:05 AM into 24-hour time.",
+      "What is 11:45 PM in 24-hour format?",
+      "Turn 6:10 AM into military time.",
+      "Convert time_string 02:00 PM to 24-hour format.",
+      "Show 9:55 PM as a 24-hour time.",
+      "Change 12:00 PM from 12-hour to 24-hour format.",
+      "Rewrite 5:20 AM in 24-hour notation.",
+      "How does 03:40 PM look in 24-hour time?",
+      "Convert 8:15 AM to 24-hour format."
     ]
   }
 }

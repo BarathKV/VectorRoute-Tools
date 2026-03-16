@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call gcd",
-      "Execute gcd function",
-      "How to calculate the greatest common divisor of two numbers?",
-      "How to use gcd?",
-      "Invoke gcd.",
-      "Return result from gcd.",
-      "Run gcd with valid parameters.",
-      "Show an example for gcd.",
-      "Trigger gcd tool.",
-      "Use gcd now."
+      "Find the GCD of 48 and 18.",
+      "Calculate the greatest common divisor of 270 and 192.",
+      "What is the GCD for a = 81 and b = 153?",
+      "Compute gcd of 56 and 98.",
+      "Give me the highest common factor of 120 and 45.",
+      "Determine the gcd for 999 and 27.",
+      "Find the greatest common divisor between 144 and 360.",
+      "Calculate gcd using a 84 and b 126.",
+      "What is the common divisor result for 35 and 49?",
+      "Work out the gcd of 1001 and 77."
     ]
   }
 }

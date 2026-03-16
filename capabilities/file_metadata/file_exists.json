@@ -1,4 +1,4 @@
- {
+{
   "type": "function",
   "function": {
     "name": "file_exists",
@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Check if the file 'folder/subfolder/filename' exists",
-      "Execute file_exists function",
-      "How to check if a file or directory exists?",
-      "How to use file_exists?",
-      "Invoke file_exists.",
-      "Return result from file_exists.",
-      "Run file_exists with valid parameters.",
-      "Show an example for file_exists.",
-      "Trigger file_exists tool.",
-      "Use file_exists now."
+      "Does /Users/brycevictor/Downloads/VectorRoute-Tools/README.md exist?",
+      "Check whether ./capabilities/travel/get_flight_status.json is present.",
+      "Can you verify if /tmp/report.csv exists?",
+      "Tell me if the file ./capabilities/news/get_latest_headlines.json exists.",
+      "Is /Users/brycevictor/Downloads/VectorRoute-Tools/capabilities/file_metadata/get_file_size.json available?",
+      "Check if ./README.md exists in this project.",
+      "See whether /tmp/missing-notes.txt is on disk.",
+      "Confirm that ./capabilities/map/reverse_geocode.json exists.",
+      "Find out if /Users/brycevictor/Downloads/VectorRoute-Tools/capabilities/stock/get_crypto_price.json is there.",
+      "Is there a file at ./capabilities/time_operations/add_hours.json?"
     ]
   }
 }

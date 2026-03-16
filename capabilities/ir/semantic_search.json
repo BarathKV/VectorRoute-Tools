@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call semantic_search",
-      "Execute semantic_search function",
-      "Find content similar to timeout issues",
-      "Find documents about authentication",
-      "Find documents related to login issues",
-      "Find reports discussing system issues",
-      "How to use semantic_search?",
-      "Invoke semantic_search.",
-      "Look for files discussing failures",
-      "Look up information about errors"
+      "Run a semantic search for \"ways to reduce cloud costs\" in the operations corpus.",
+      "Find semantically similar passages about \"customer onboarding delays\" in support_corpus.",
+      "Search the research corpus for content related to \"vector databases\".",
+      "Use semantic search to find ideas similar to \"employee retention strategies\" in hr_docs.",
+      "Look for documents about \"multi-region failover\" in engineering_corpus.",
+      "Search corpus product_specs for material related to \"mobile checkout flow\".",
+      "Find semantically related content for \"fraud detection models\" in analytics_corpus.",
+      "Use semantic search on legal_corpus for \"data processing agreements\".",
+      "Search for concepts similar to \"warehouse automation\" in logistics_docs.",
+      "Run semantic_search with query \"forecasting demand spikes\" and corpus planning_docs."
     ]
   }
 }

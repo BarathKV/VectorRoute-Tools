@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_dividend_info",
-      "Execute get_dividend_info function",
-      "How to get dividend details for a stock symbol?",
-      "How to use get_dividend_info?",
-      "Invoke get_dividend_info.",
-      "Return result from get_dividend_info.",
-      "Run get_dividend_info with valid parameters.",
-      "Show an example for get_dividend_info.",
-      "Trigger get_dividend_info tool.",
-      "Use get_dividend_info now."
+      "Get dividend information for AAPL.",
+      "Show dividend details for MSFT.",
+      "What is the dividend history for KO?",
+      "Fetch dividend info for JNJ.",
+      "Tell me about dividend payouts for T.",
+      "Get dividend data for PG.",
+      "Show me dividend information on IBM.",
+      "Check dividend details for XOM.",
+      "Retrieve the dividend info for VZ.",
+      "Find dividend information using symbol O."
     ]
   }
 }

@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call is_file_writable",
-      "Execute is_file_writable function",
-      "How to check if a file is writable?",
-      "How to use is_file_writable?",
-      "Invoke is_file_writable.",
-      "Return result from is_file_writable.",
-      "Run is_file_writable with valid parameters.",
-      "Show an example for is_file_writable.",
-      "Trigger is_file_writable tool.",
-      "Use is_file_writable now."
+      "Is ./README.md writable?",
+      "Check whether ./capabilities/travel/get_distance_between_cities.json can be written to.",
+      "Tell me if ./capabilities/map/reverse_geocode.json is writable.",
+      "Can the file ./capabilities/news/summarize_news_by_keyword.json be modified?",
+      "Verify write access for ./capabilities/stock/compare_stocks.json.",
+      "Is ./capabilities/time_operations/get_timestamp.json writable by the current user?",
+      "Check if ./capabilities/health/estimate_daily_calories.json has write permission.",
+      "Find out whether ./capabilities/maths/part_to_percent_calc.json is writable.",
+      "Do I have write access to ./capabilities/file_metadata/get_file_size.json?",
+      "Confirm that ./capabilities/ir/search_logs.json is writable."
     ]
   }
 }

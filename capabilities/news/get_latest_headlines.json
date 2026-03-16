@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_latest_headlines",
-      "Execute get_latest_headlines function",
-      "How to get latest news headlines by category?",
-      "How to use get_latest_headlines?",
-      "Invoke get_latest_headlines.",
-      "Return result from get_latest_headlines.",
-      "Run get_latest_headlines with valid parameters.",
-      "Show an example for get_latest_headlines.",
-      "Trigger get_latest_headlines tool.",
-      "Use get_latest_headlines now."
+      "Show me the latest technology headlines.",
+      "Get the newest business news headlines.",
+      "What are the latest sports headlines right now?",
+      "Fetch current health headlines.",
+      "Give me the latest entertainment news headlines.",
+      "Show top science headlines.",
+      "Get recent politics headlines.",
+      "What are the latest world headlines?",
+      "Pull the newest finance headlines.",
+      "Fetch the latest category news for technology."
     ]
   }
 }

@@ -21,16 +21,16 @@
     "long_description": "Calculates the percentage by dividing the part by the whole and multiplying by 100. Useful for determining the percentage representation of a subset in relation to a total.",
     "domain": "Mathematical Calculations",
     "example_user_queries": [
-      "Calculate the percentage of 45 out of 90",
-      "Calculate the percentage of 50 in 200",
-      "Calculate the percentage of 80 out of 400",
-      "Call percentage_calc",
-      "Execute percentage_calc function",
-      "Find the percentage of 60 in 120",
-      "Find the percentage of 75 in 300",
-      "How to use percentage_calc?",
-      "Invoke percentage_calc.",
-      "Return result from percentage_calc."
+      "What percentage is 45 out of 180?",
+      "Calculate the percentage for part 18 and whole 72.",
+      "Find what percent 320 is of 800.",
+      "How much percent is 27 out of 60?",
+      "Compute percentage where part is 125 and whole is 500.",
+      "What percentage does 9 represent out of 12?",
+      "Calculate the percent of 250 out of 2000.",
+      "Find the percentage for 66 out of 120.",
+      "Tell me what percent 14 is of 56.",
+      "Work out percentage_calc with part 7 and whole 28."
     ]
   }
 }

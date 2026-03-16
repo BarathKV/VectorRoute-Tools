@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_file_permissions",
-      "Execute get_file_permissions function",
-      "How to get the permissions of a file?",
-      "How to use get_file_permissions?",
-      "Invoke get_file_permissions.",
-      "Return result from get_file_permissions.",
-      "Run get_file_permissions with valid parameters.",
-      "Show an example for get_file_permissions.",
-      "Trigger get_file_permissions tool.",
-      "Use get_file_permissions now."
+      "What permissions does ./README.md have?",
+      "Show the permissions for ./capabilities/travel/get_flight_status.json.",
+      "Get the file permission bits of ./capabilities/map/get_route_distance.json.",
+      "Tell me the permissions on ./capabilities/news/get_trending_topics.json.",
+      "Check the access permissions for ./capabilities/stock/compare_stocks.json.",
+      "Return the permissions of ./capabilities/time_operations/convert_time_format.json.",
+      "What are the filesystem permissions for ./capabilities/health/calculate_bmi.json?",
+      "Find the file mode for ./capabilities/maths/percentage_calc.json.",
+      "Give me the permissions of ./capabilities/file_metadata/is_file_readable.json.",
+      "Inspect the permissions on ./capabilities/ir/search_metadata.json."
     ]
   }
 }

@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_file_created_time",
-      "Execute get_file_created_time function",
-      "How to get the creation time of a file?",
-      "How to use get_file_created_time?",
-      "Invoke get_file_created_time.",
-      "Return result from get_file_created_time.",
-      "Run get_file_created_time with valid parameters.",
-      "Show an example for get_file_created_time.",
-      "Trigger get_file_created_time tool.",
-      "Use get_file_created_time now."
+      "When was /Users/brycevictor/Downloads/VectorRoute-Tools/README.md created?",
+      "Show the creation time for ./capabilities/travel/get_flight_status.json.",
+      "Get the created timestamp of ./capabilities/map/reverse_geocode.json.",
+      "When was ./capabilities/news/get_latest_headlines.json first created?",
+      "Tell me the file creation time for ./capabilities/stock/get_crypto_price.json.",
+      "Find the created date of ./capabilities/time_operations/add_hours.json.",
+      "What is the creation timestamp for ./capabilities/health/calculate_bmi.json?",
+      "Check when ./capabilities/maths/length_converter.json was created.",
+      "Give me the created time of ./capabilities/file_metadata/get_file_size.json.",
+      "When did ./capabilities/ir/search_recent_documents.json get created?"
     ]
   }
 }

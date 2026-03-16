@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call search_logs",
-      "Execute search_logs function",
-      "Find crash logs",
-      "Find logs mentioning database",
-      "Find system warnings",
-      "Find warning logs related to login",
-      "How to use search_logs?",
-      "Invoke search_logs.",
-      "Look for error-level logs",
-      "Retrieve error logs"
+      "Search logs for \"database connection timeout\" at error level.",
+      "Find warning logs containing \"memory usage high\".",
+      "Search for \"user login failed\" in logs with log level info.",
+      "Look up critical logs matching \"payment gateway unavailable\".",
+      "Search logs for query \"job scheduler\" and log_level debug.",
+      "Find error logs mentioning \"disk full\".",
+      "Search warning-level logs for \"API rate limit\".",
+      "Show info logs related to \"backup completed\".",
+      "Search logs for \"unauthorized request\" at critical severity.",
+      "Find debug logs that mention \"cache refresh\"."
     ]
   }
 }

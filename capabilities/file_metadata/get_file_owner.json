@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_file_owner",
-      "Execute get_file_owner function",
-      "How to get the owner of a file?",
-      "How to use get_file_owner?",
-      "Invoke get_file_owner.",
-      "Return result from get_file_owner.",
-      "Run get_file_owner with valid parameters.",
-      "Show an example for get_file_owner.",
-      "Trigger get_file_owner tool.",
-      "Use get_file_owner now."
+      "Who owns ./README.md?",
+      "Show the owner of ./capabilities/travel/get_distance_between_cities.json.",
+      "Get the file owner for ./capabilities/map/reverse_geocode.json.",
+      "Tell me who owns ./capabilities/news/get_latest_headlines.json.",
+      "Find the owner of ./capabilities/stock/get_market_movers.json.",
+      "Return the owner of ./capabilities/time_operations/add_hours.json.",
+      "Who is the owner of ./capabilities/health/estimate_daily_calories.json?",
+      "Check the file owner for ./capabilities/maths/part_to_percent_calc.json.",
+      "Give me the owner of ./capabilities/file_metadata/get_file_size.json.",
+      "Identify the owner of ./capabilities/ir/retrieve_document_by_id.json."
     ]
   }
 }

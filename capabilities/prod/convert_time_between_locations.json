@@ -21,18 +21,23 @@
           "description": "The destination location (e.g., 'London', 'Tokyo')."
         }
       },
-      "required": ["time_str", "from_location", "to_location"]
+      "required": [
+        "time_str",
+        "from_location",
+        "to_location"
+      ]
     },
     "example_user_queries": [
-      "If it's 10:00 AM in Kolkata, what time is it in Dubai?",
-      "Convert 2026-06-01 14:00 from New York to Paris.",
-      "What time is it in Tokyo when it's 8 PM in Los Angeles?",
-      "Time difference between Sydney and Mumbai for tomorrow at noon.",
-      "When it is midnight on New Year's Eve in Sydney, what time will it be in London?",
-      "Convert 2026-08-15 09:30 from Chicago time to Singapore.",
-      "I have a meeting at 3 PM in Berlin; what time should my colleague in San Francisco log in?",
-      "If a flight leaves Dubai at 2026-11-20 22:00, what is the local time in Kolkata at that exact moment?",
-      "What will be the local time in Johannesburg if I set my clock to 10:00 in Toronto on March 25th?"
+      "Convert 3:30 PM from New York to London time.",
+      "What is 09:15 in Tokyo when converted to Sydney?",
+      "Change 7:00 AM from San Francisco to Singapore local time.",
+      "Convert 11:45 PM from Dubai to Toronto.",
+      "If it is 2:00 PM in Paris, what time is it in Mumbai?",
+      "Translate 6:20 AM from Berlin to Los Angeles time.",
+      "Convert time_str 18:30 from_location Delhi to to_location Chicago.",
+      "What is 8:10 PM in Seoul in Mexico City time?",
+      "Change 12:00 noon from Nairobi to Johannesburg time.",
+      "Convert 05:50 from Auckland to Hong Kong."
     ]
   }
 }

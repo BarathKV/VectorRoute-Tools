@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_historical_weather",
-      "Execute get_historical_weather function",
-      "How to get historical weather for a city on a specific date?",
-      "How to use get_historical_weather?",
-      "Invoke get_historical_weather.",
-      "Return result from get_historical_weather.",
-      "Run get_historical_weather with valid parameters.",
-      "Show an example for get_historical_weather.",
-      "Trigger get_historical_weather tool.",
-      "Use get_historical_weather now."
+      "Get historical weather for London on 2025-01-15.",
+      "What was the weather in New York on 2024-07-04?",
+      "Fetch past weather data for Tokyo on 2023-12-25.",
+      "Show historical weather for Sydney on 2025-03-10.",
+      "Tell me the weather in Dubai on 2024-11-01.",
+      "Look up historical weather for Toronto on 2025-08-20.",
+      "Get weather history for Paris on 2023-05-14.",
+      "What were the weather conditions in Mumbai on 2024-09-30?",
+      "Fetch the historical weather for Singapore on 2025-02-01.",
+      "Get_historical_weather with city Berlin and date 2024-06-18."
     ]
   }
 }

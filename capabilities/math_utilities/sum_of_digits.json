@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call sum_of_digits",
-      "Execute sum_of_digits function",
-      "How to calculate the sum of digits in a number?",
-      "How to use sum_of_digits?",
-      "Invoke sum_of_digits.",
-      "Return result from sum_of_digits.",
-      "Run sum_of_digits with valid parameters.",
-      "Show an example for sum_of_digits.",
-      "Trigger sum_of_digits tool.",
-      "Use sum_of_digits now."
+      "Find the sum of digits in 12345.",
+      "What is the digit sum of 908172?",
+      "Add the digits of 9999.",
+      "Calculate sum_of_digits for n = 56007.",
+      "Give me the sum of all digits in 40060.",
+      "Compute the digit sum for 10101.",
+      "Find the total of the digits in 24680.",
+      "What do the digits of 777 add up to?",
+      "Sum the digits of 13579.",
+      "Tell me the digit sum for the number 1000001."
     ]
   }
 }

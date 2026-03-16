@@ -1,5 +1,6 @@
 import requests
-from collections import Counter
+
+from functions.news._common import extract_trending_topics, fetch_gnews_json, get_gnews_token
 
 
 def get_trending_topics():
@@ -12,37 +13,25 @@ def get_trending_topics():
     Returns:
         Any: Function result.
     """
+    token, using_demo_token = get_gnews_token()
     url = "https://gnews.io/api/v4/top-headlines"
     params = {
         "lang": "en",
         "max": 10,
-        "token": "demo"
+        "token": token,
     }
 
     try:
-        response = requests.get(url, params=params, timeout=10)
-        response.raise_for_status()
-        data = response.json()
+        data = fetch_gnews_json(url, params)
     except requests.RequestException as exc:
         return {
             "trending_topics": [],
-            "error": str(exc)
+            "error": str(exc),
         }
 
-    words = []
-
-    for article in data.get("articles", []):
-        title = article.get("title", "")
-        for word in title.split():
-            word = word.lower().strip(".,!?")
-            if len(word) > 4:
-                words.append(word)
-
-    common = Counter(words).most_common(5)
-
-    return {
-        "trending_topics": [
-            {"topic": word, "count": count}
-            for word, count in common
-        ]
+    result = {
+        "trending_topics": extract_trending_topics(data.get("articles", []), limit=5),
     }
+    if using_demo_token:
+        result["warning"] = "Using demo GNews token; results may be limited."
+    return result

@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call generate_random_number",
-      "Execute generate_random_number function",
-      "How to generate a random integer between min and max (inclusive)?",
-      "How to use generate_random_number?",
-      "Invoke generate_random_number.",
-      "Return result from generate_random_number.",
-      "Run generate_random_number with valid parameters.",
-      "Show an example for generate_random_number.",
-      "Trigger generate_random_number tool.",
-      "Use generate_random_number now."
+      "Generate a random number between 1 and 10.",
+      "Pick a random number from 100 to 999.",
+      "Give me a random integer between -5 and 5.",
+      "Generate a number with min 20 and max 30.",
+      "Return a random number between 1000 and 5000.",
+      "Choose a random value from the range 50 to 60.",
+      "Generate_random_number with min_val 7 and max_val 14.",
+      "I need a random number between 200 and 250.",
+      "Pick any number in the interval 0 to 3.",
+      "Return a random number where min_val is 90 and max_val is 120."
     ]
   }
 }

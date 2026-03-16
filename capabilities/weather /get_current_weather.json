@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_current_weather",
-      "Execute get_current_weather function",
-      "How to get the current weather for a city?",
-      "How to use get_current_weather?",
-      "Invoke get_current_weather.",
-      "Return result from get_current_weather.",
-      "Run get_current_weather with valid parameters.",
-      "Show an example for get_current_weather.",
-      "Trigger get_current_weather tool.",
-      "Use get_current_weather now."
+      "What is the current weather in Bengaluru?",
+      "Show me the weather right now in New York.",
+      "Get the current temperature and conditions for London.",
+      "What is the weather like in Tokyo at the moment?",
+      "Fetch current weather for Dubai.",
+      "Tell me the current weather in Toronto.",
+      "Show live weather conditions in Sydney.",
+      "Get the weather now for Singapore.",
+      "What are the current conditions in San Francisco?",
+      "Check current weather using city Mumbai."
     ]
   }
 }

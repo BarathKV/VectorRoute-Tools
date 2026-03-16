@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call is_prime",
-      "Execute is_prime function",
-      "How to check if a number is prime?",
-      "How to use is_prime?",
-      "Invoke is_prime.",
-      "Return result from is_prime.",
-      "Run is_prime with valid parameters.",
-      "Show an example for is_prime.",
-      "Trigger is_prime tool.",
-      "Use is_prime now."
+      "Is 29 a prime number?",
+      "Check whether 97 is prime.",
+      "Tell me if 221 is a prime number.",
+      "Determine whether 2 is prime.",
+      "Is 7919 prime?",
+      "Check primality for n = 100.",
+      "Find out if 99991 is prime.",
+      "Test whether 67 is a prime number.",
+      "Is the number 1 prime?",
+      "Verify whether 131 is prime."
     ]
   }
 }

@@ -3,7 +3,7 @@
   "function": {
     "name": "factorial",
     "description": "Calculate the factorial of a number.",
-    "long_description": "Computes the factorial (n!) of a non-negative integer, where n! = n × (n-1) × ... × 1.",
+    "long_description": "Computes the factorial (n!) of a non-negative integer, where n! = n \u00d7 (n-1) \u00d7 ... \u00d7 1.",
     "domain": "Math Utilities",
     "parameters": {
       "type": "object",
@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call factorial",
-      "Execute factorial function",
-      "How to calculate the factorial of a number?",
-      "How to use factorial?",
-      "Invoke factorial.",
-      "Return result from factorial.",
-      "Run factorial with valid parameters.",
-      "Show an example for factorial.",
-      "Trigger factorial tool.",
-      "Use factorial now."
+      "Calculate the factorial of 5.",
+      "What is 8 factorial?",
+      "Compute factorial for n = 10.",
+      "Find the value of 12!.",
+      "Evaluate factorial of 0.",
+      "Give me the factorial of 7.",
+      "Work out n! for n equal to 6.",
+      "Calculate factorial using n 9.",
+      "Tell me the factorial of 11.",
+      "Find factorial for the number 4."
     ]
   }
 }

@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_weather_alerts_by_region",
-      "Execute get_weather_alerts_by_region function",
-      "How to get active weather alerts for a region?",
-      "How to use get_weather_alerts_by_region?",
-      "Invoke get_weather_alerts_by_region.",
-      "Return result from get_weather_alerts_by_region.",
-      "Run get_weather_alerts_by_region with valid parameters.",
-      "Show an example for get_weather_alerts_by_region.",
-      "Trigger get_weather_alerts_by_region tool.",
-      "Use get_weather_alerts_by_region now."
+      "Show active weather alerts for California.",
+      "Are there any weather alerts in Texas?",
+      "Get weather warnings for Kerala.",
+      "Fetch current alerts for the Florida region.",
+      "Tell me about weather alerts in New South Wales.",
+      "Check severe weather warnings for Ontario.",
+      "Show weather alerts for the Tokyo region.",
+      "Get regional weather alerts for Maharashtra.",
+      "What alerts are active in British Columbia?",
+      "Fetch weather alerts using region Queensland."
     ]
   }
 }

@@ -22,16 +22,16 @@
       ]
     },
     "example_user_queries": [
-      "Call timestamp_to_time",
-      "Execute timestamp_to_time function",
-      "How to convert unix timestamp to readable time string?",
-      "How to use timestamp_to_time?",
-      "Invoke timestamp_to_time.",
-      "Return result from timestamp_to_time.",
-      "Run timestamp_to_time with valid parameters.",
-      "Show an example for timestamp_to_time.",
-      "Trigger timestamp_to_time tool.",
-      "Use timestamp_to_time now."
+      "Convert timestamp 1710000000 to a readable time using %Y-%m-%d %H:%M:%S.",
+      "Turn Unix timestamp 1704067200 into %d-%m-%Y %H:%M.",
+      "Format timestamp 1685577600 as %I:%M %p on %b %d, %Y.",
+      "Convert the timestamp 1735689600 using format %Y/%m/%d.",
+      "Show timestamp 1672531200 as a human-readable date and time.",
+      "Translate timestamp 1728000000 into format_string %Y-%m-%d %H:%M.",
+      "Render Unix time 1609459200 as %A, %d %B %Y.",
+      "Convert 1654041600 to time with format %Y-%m-%d.",
+      "Format the timestamp 1696118400 using %m/%d/%Y %H:%M.",
+      "What time does timestamp 1740787200 represent in %Y-%m-%d %H:%M:%S?"
     ]
   }
 }

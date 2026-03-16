@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Access a stored document",
-      "Call retrieve_document_by_id",
-      "Execute retrieve_document_by_id function",
-      "Fetch document by filename",
-      "Get document content",
-      "Get the contents of doc1.txt",
-      "How to use retrieve_document_by_id?",
-      "Invoke retrieve_document_by_id.",
-      "Load document by name",
-      "Open report.txt"
+      "Retrieve the document with ID DOC-1024.",
+      "Fetch document ID INV-2025-009.",
+      "Get the record for document_id KB-7781.",
+      "Open the document with ID HR-POL-17.",
+      "Return document DOC-5567.",
+      "Look up the document whose ID is LOG-20260314-44.",
+      "Retrieve document_id PRD-401.",
+      "Find the document with ID CASE-9182.",
+      "Show document TICKET-44321.",
+      "Fetch the file identified by document_id ARTICLE-88."
     ]
   }
 }

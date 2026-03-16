@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call summarize_news_by_keyword",
-      "Execute summarize_news_by_keyword function",
-      "How to summarize recent news articles by keyword?",
-      "How to use summarize_news_by_keyword?",
-      "Invoke summarize_news_by_keyword.",
-      "Return result from summarize_news_by_keyword.",
-      "Run summarize_news_by_keyword with valid parameters.",
-      "Show an example for summarize_news_by_keyword.",
-      "Trigger summarize_news_by_keyword tool.",
-      "Use summarize_news_by_keyword now."
+      "Summarize recent news about artificial intelligence.",
+      "Give me a news summary for the keyword inflation.",
+      "Summarize the latest news related to electric vehicles.",
+      "What is happening in the news about climate change?",
+      "Provide a short summary of recent articles on semiconductors.",
+      "Summarize news coverage for the keyword space exploration.",
+      "Show me a summary of news about interest rates.",
+      "What is the latest news summary for cybersecurity?",
+      "Summarize current news mentioning renewable energy.",
+      "Give me a concise news summary on the topic layoffs."
     ]
   }
 }

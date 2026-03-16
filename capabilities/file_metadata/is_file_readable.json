@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call is_file_readable",
-      "Execute is_file_readable function",
-      "How to check if a file is readable?",
-      "How to use is_file_readable?",
-      "Invoke is_file_readable.",
-      "Return result from is_file_readable.",
-      "Run is_file_readable with valid parameters.",
-      "Show an example for is_file_readable.",
-      "Trigger is_file_readable tool.",
-      "Use is_file_readable now."
+      "Is ./README.md readable?",
+      "Check whether ./capabilities/travel/get_flight_status.json can be read.",
+      "Tell me if ./capabilities/map/get_route_distance.json is readable.",
+      "Can the file ./capabilities/news/get_trending_topics.json be read?",
+      "Verify read access for ./capabilities/stock/get_dividend_info.json.",
+      "Is ./capabilities/time_operations/add_hours.json readable by the current user?",
+      "Check if ./capabilities/health/calculate_bmi.json has read permission.",
+      "Find out whether ./capabilities/maths/percentage_calc.json is readable.",
+      "Do I have read access to ./capabilities/file_metadata/get_file_permissions.json?",
+      "Confirm that ./capabilities/ir/search_recent_documents.json is readable."
     ]
   }
 }

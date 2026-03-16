@@ -27,16 +27,16 @@
       ]
     },
     "example_user_queries": [
-      "Call calculate_time_difference",
-      "Execute calculate_time_difference function",
-      "How to calculate the difference in hours, minutes, and seconds between two times?",
-      "How to use calculate_time_difference?",
-      "Invoke calculate_time_difference.",
-      "Return result from calculate_time_difference.",
-      "Run calculate_time_difference with valid parameters.",
-      "Show an example for calculate_time_difference.",
-      "Trigger calculate_time_difference tool.",
-      "Use calculate_time_difference now."
+      "Calculate the time difference between 09:15 and 17:45.",
+      "How many hours apart are 08:00 AM and 01:30 PM using %I:%M %p?",
+      "Find the difference between 23:10 and 01:40.",
+      "Compare 14:20 and 18:55 in time.",
+      "Compute time difference for t1 06:30 and t2 09:05 with format %H:%M.",
+      "What is the gap between 11:45 and 16:00?",
+      "Determine the difference between 07:15 PM and 10:50 PM.",
+      "Show the elapsed time from 00:10 to 03:40.",
+      "Calculate hours and minutes between 05:25 and 12:05.",
+      "How much time is there between 10:00 and 10:45?"
     ]
   }
 }

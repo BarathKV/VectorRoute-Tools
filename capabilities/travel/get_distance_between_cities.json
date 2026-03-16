@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_distance_between_cities",
-      "Execute get_distance_between_cities function",
-      "How to calculate distance between two cities?",
-      "How to use get_distance_between_cities?",
-      "Invoke get_distance_between_cities.",
-      "Return result from get_distance_between_cities.",
-      "Run get_distance_between_cities with valid parameters.",
-      "Show an example for get_distance_between_cities.",
-      "Trigger get_distance_between_cities tool.",
-      "Use get_distance_between_cities now."
+      "How far is New York from Boston?",
+      "Calculate the distance between San Francisco and Los Angeles.",
+      "What is the distance from Chicago to Detroit?",
+      "Find the distance between Mumbai and Pune.",
+      "Show the distance from London to Manchester.",
+      "Get the travel distance between Delhi and Jaipur.",
+      "How far apart are Seattle and Portland?",
+      "Measure the distance from Paris to Lyon.",
+      "Calculate city distance for city_from Austin and city_to Houston.",
+      "Tell me the distance between Dubai and Abu Dhabi."
     ]
   }
 }

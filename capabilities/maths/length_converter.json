@@ -8,15 +8,15 @@
       "properties": {
         "value": {
           "type": "number",
-          "description":"The actual value to be converted"
+          "description": "The actual value to be converted"
         },
         "from_unit": {
           "type": "string",
-          "description":"the unit from which the value has to be converted"
+          "description": "the unit from which the value has to be converted"
         },
         "to_unit": {
           "type": "string",
-          "description":"the unit into which the value has to be converted to"
+          "description": "the unit into which the value has to be converted to"
         }
       },
       "required": [
@@ -28,16 +28,16 @@
     "long_description": "Converts a length value from the specified source unit to the target unit using predefined conversion factors. Supported units include meters (m), kilometers (km), miles (mi), feet (ft), and inches (in).",
     "domain": "Unit Conversion",
     "example_user_queries": [
-      "Call length_converter",
-      "Convert 10 feet to inches",
-      "Convert 100 meters to kilometers",
-      "Convert 2 miles to meters",
-      "Convert 50 inches to feet",
-      "Convert 500 meters to miles",
-      "Execute length_converter function",
-      "How many feet are in 1 kilometer?",
-      "How many inches are in 10 feet?",
-      "How many kilometers are in 2000 meters?"
+      "Convert 12 kilometers to miles.",
+      "How many centimeters are in 5.5 meters?",
+      "Convert 72 inches to feet.",
+      "Turn 3 miles into kilometers.",
+      "Change 2500 millimeters to meters.",
+      "Convert value 18 from_unit feet to to_unit meters.",
+      "How many yards is 100 meters?",
+      "Convert 0.75 kilometers into meters.",
+      "Turn 42 centimeters into inches.",
+      "Convert 15 miles to meters."
     ]
   }
 }

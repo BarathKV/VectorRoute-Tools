@@ -22,16 +22,16 @@
       ]
     },
     "example_user_queries": [
-      "Call is_valid_time",
-      "Execute is_valid_time function",
-      "How to check if a time string is valid in a given format?",
-      "How to use is_valid_time?",
-      "Invoke is_valid_time.",
-      "Return result from is_valid_time.",
-      "Run is_valid_time with valid parameters.",
-      "Show an example for is_valid_time.",
-      "Trigger is_valid_time tool.",
-      "Use is_valid_time now."
+      "Is 23:45 a valid time in %H:%M format?",
+      "Check whether 12:61 is valid for %H:%M.",
+      "Tell me if 07:30 PM is valid using %I:%M %p.",
+      "Validate the time string 24:00 with format %H:%M.",
+      "Is 00:15 valid in 24-hour format?",
+      "Check if 13:75 is a valid time.",
+      "Validate time_string 11:59 PM with time_format %I:%M %p.",
+      "Is 5:10 AM valid for %I:%M %p?",
+      "Find out whether 18:30 matches format %H:%M.",
+      "Can 12:00 AM be parsed with %I:%M %p?"
     ]
   }
 }

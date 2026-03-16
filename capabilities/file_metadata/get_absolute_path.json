@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_absolute_path",
-      "Execute get_absolute_path function",
-      "How to get the absolute path of a file or directory?",
-      "How to use get_absolute_path?",
-      "Invoke get_absolute_path.",
-      "Return result from get_absolute_path.",
-      "Run get_absolute_path with valid parameters.",
-      "Show an example for get_absolute_path.",
-      "Trigger get_absolute_path tool.",
-      "Use get_absolute_path now."
+      "Get the absolute path for ./README.md.",
+      "Resolve the full path of ./capabilities/travel/get_distance_between_cities.json.",
+      "Show me the absolute path for ./capabilities/news/get_trending_topics.json.",
+      "Convert ./capabilities/map/get_route_distance.json to an absolute path.",
+      "What is the full path of ./capabilities/file_metadata/get_file_owner.json?",
+      "Resolve ./capabilities/time_operations/get_current_time.json to its absolute location.",
+      "Give me the absolute path for ./capabilities/stock/compare_stocks.json.",
+      "Find the full filesystem path of ./capabilities/health/calculate_bmi.json.",
+      "Expand ./capabilities/ir/search_logs.json into an absolute path.",
+      "Return the absolute path for ./capabilities/maths/percentage_calc.json."
     ]
   }
 }

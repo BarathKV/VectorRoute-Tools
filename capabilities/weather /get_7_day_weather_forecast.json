@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_7_day_weather_forecast",
-      "Execute get_7_day_weather_forecast function",
-      "How to get a 7-day weather forecast for a city?",
-      "How to use get_7_day_weather_forecast?",
-      "Invoke get_7_day_weather_forecast.",
-      "Return result from get_7_day_weather_forecast.",
-      "Run get_7_day_weather_forecast with valid parameters.",
-      "Show an example for get_7_day_weather_forecast.",
-      "Trigger get_7_day_weather_forecast tool.",
-      "Use get_7_day_weather_forecast now."
+      "Show the 7-day weather forecast for Bengaluru.",
+      "What is the weekly forecast for New York?",
+      "Give me the next 7 days of weather for London.",
+      "Fetch the 7-day forecast for Tokyo.",
+      "Show this week\u2019s weather outlook for Sydney.",
+      "Get a 7-day forecast for Dubai.",
+      "What does the weather look like over the next week in Toronto?",
+      "Give me the weekly weather forecast for Singapore.",
+      "Fetch forecast data for the next 7 days in San Diego.",
+      "Show the 7-day weather forecast using city Paris."
     ]
   }
 }

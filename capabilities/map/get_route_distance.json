@@ -23,11 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "How far is the drive from New York to Los Angeles?",
-      "Calculate the road distance between Berlin and Munich.",
-      "What is the driving distance from London to Edinburgh?",
-      "Use get_route_distance to find the distance from Tokyo to Osaka.",
-      "Check the road distance between Seattle and Vancouver."
+      "What is the route distance from Times Square, New York to Central Park, New York?",
+      "Calculate the route distance between San Francisco Airport and San Jose Downtown.",
+      "Get driving distance from Chicago Union Station to O Hare Airport.",
+      "Find the route distance from Seattle Space Needle to Pike Place Market.",
+      "How far is it by route from Dallas Love Field to Fort Worth Stockyards?",
+      "Measure the route distance between Miami Beach and Orlando Downtown.",
+      "Show the road distance from Austin City Hall to Houston City Hall.",
+      "Get the route distance from Golden Gate Bridge to Stanford University.",
+      "Calculate distance by route from Boston Logan Airport to Harvard Square.",
+      "Find route mileage between Los Angeles Union Station and Santa Monica Pier."
     ]
   }
 }

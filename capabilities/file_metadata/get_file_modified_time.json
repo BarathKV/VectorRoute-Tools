@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_file_modified_time",
-      "Execute get_file_modified_time function",
-      "How to get the modification time of a file?",
-      "How to use get_file_modified_time?",
-      "Invoke get_file_modified_time.",
-      "Return result from get_file_modified_time.",
-      "Run get_file_modified_time with valid parameters.",
-      "Show an example for get_file_modified_time.",
-      "Trigger get_file_modified_time tool.",
-      "Use get_file_modified_time now."
+      "When was ./README.md last modified?",
+      "Show the last modified time for ./capabilities/travel/get_flight_status.json.",
+      "Get the modification timestamp of ./capabilities/map/get_route_distance.json.",
+      "When was ./capabilities/news/summarize_news_by_keyword.json updated last?",
+      "Tell me the modified time for ./capabilities/stock/get_dividend_info.json.",
+      "Check the last modified date of ./capabilities/time_operations/get_timestamp.json.",
+      "What is the modification time of ./capabilities/health/calculate_bmi.json?",
+      "Find the last update time for ./capabilities/file_metadata/get_file_permissions.json.",
+      "Give me the modified timestamp of ./capabilities/maths/length_converter.json.",
+      "When did ./capabilities/ir/search_logs.json change most recently?"
     ]
   }
 }

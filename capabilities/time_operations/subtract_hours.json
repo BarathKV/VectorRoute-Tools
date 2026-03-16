@@ -27,16 +27,16 @@
       ]
     },
     "example_user_queries": [
-      "Call subtract_hours",
-      "Execute subtract_hours function",
-      "How to subtract hours from a given time?",
-      "How to use subtract_hours?",
-      "Invoke subtract_hours.",
-      "Return result from subtract_hours.",
-      "Run subtract_hours with valid parameters.",
-      "Show an example for subtract_hours.",
-      "Trigger subtract_hours tool.",
-      "Use subtract_hours now."
+      "Subtract 5 hours from 14:30.",
+      "What time is 09:15 minus 3 hours?",
+      "Subtract 12 hours from 11:45 PM using %I:%M %p.",
+      "Decrease 06:20 by 8 hours.",
+      "Subtract 2.5 hours from 18:00.",
+      "Call subtract_hours with time_string 07:10, hours 4, and format %H:%M.",
+      "If the time is 10:50, what do I get after subtracting 6 hours?",
+      "Take 1 hour away from 00:30 in 24-hour format.",
+      "Shift 03:05 PM backward by 9 hours using %I:%M %p.",
+      "Calculate the new time after subtracting 7 hours from 21:40."
     ]
   }
 }

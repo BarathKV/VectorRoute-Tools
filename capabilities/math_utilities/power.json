@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call power",
-      "Execute power function",
-      "How to calculate base raised to the power of exponent?",
-      "How to use power?",
-      "Invoke power.",
-      "Return result from power.",
-      "Run power with valid parameters.",
-      "Show an example for power.",
-      "Trigger power tool.",
-      "Use power now."
+      "Calculate 2 raised to the power of 10.",
+      "What is 5 to the power of 3?",
+      "Compute base 9 with exponent 2.",
+      "Find 7^4.",
+      "Evaluate 10 raised to 0.",
+      "Give me the result of 3 power 5.",
+      "Calculate power with base 12 and exponent 2.",
+      "What is 1.5 raised to the power 3?",
+      "Compute the value of 8 to the exponent 1.",
+      "Return the result for base 4 and exponent 6."
     ]
   }
 }

@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call search_metadata",
-      "Execute search_metadata function",
-      "Find documents modified today",
-      "Find documents with size greater than 1KB",
-      "Find files modified recently",
-      "Find files with matching metadata",
-      "Find files with specific filename",
-      "How to use search_metadata?",
-      "Invoke search_metadata.",
-      "Retrieve documents using metadata"
+      "Search metadata where author equals \"Alice Johnson\".",
+      "Find documents with metadata field department set to finance.",
+      "Look up items where region is APAC in metadata.",
+      "Search metadata for status equal to archived.",
+      "Find records with metadata_field project and value vectorroute.",
+      "Show files whose metadata owner is platform-team.",
+      "Search for metadata field priority with value high.",
+      "Find documents where category equals compliance.",
+      "Look up metadata entries where source is crm.",
+      "Search metadata for tag set to onboarding."
     ]
   }
 }

@@ -1,5 +1,7 @@
 import requests
 
+from functions.news._common import build_article_summary, fetch_gnews_json, get_gnews_token
+
 
 def summarize_news_by_keyword(keyword: str):
     """
@@ -11,35 +13,38 @@ def summarize_news_by_keyword(keyword: str):
     Returns:
         Any: Function result.
     """
+    token, using_demo_token = get_gnews_token()
     url = "https://gnews.io/api/v4/search"
     params = {
         "q": keyword,
         "lang": "en",
         "max": 5,
-        "token": "demo"
+        "token": token,
     }
 
     try:
-        response = requests.get(url, params=params, timeout=10)
-        response.raise_for_status()
-        data = response.json()
+        data = fetch_gnews_json(url, params)
     except requests.RequestException as exc:
         return {
             "keyword": keyword,
             "articles": [],
-            "error": str(exc)
+            "error": str(exc),
         }
 
     summaries = []
 
     for article in data.get("articles", []):
-        description = article.get("description") or ""
         summaries.append({
             "title": article.get("title"),
-            "summary": description[:200]  # lightweight deterministic summary
+            "summary": build_article_summary(article),
+            "source": article.get("source", {}).get("name"),
+            "published_at": article.get("publishedAt"),
         })
 
-    return {
+    result = {
         "keyword": keyword,
-        "articles": summaries
+        "articles": summaries,
     }
+    if using_demo_token:
+        result["warning"] = "Using demo GNews token; results may be limited."
+    return result

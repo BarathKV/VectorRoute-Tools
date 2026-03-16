@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call search_documents_by_title",
-      "Execute search_documents_by_title function",
-      "Find document with specific title",
-      "Find document with title project plan",
-      "Find documents titled sales report",
-      "Find files named audit",
-      "How to use search_documents_by_title?",
-      "Invoke search_documents_by_title.",
-      "Look for report titled annual summary",
-      "Look up document by title"
+      "Search for documents with titles matching \"annual budget\".",
+      "Find documents whose title contains \"incident postmortem\".",
+      "Look up titles related to \"vendor agreement\".",
+      "Search by title for \"marketing roadmap\".",
+      "Find documents with \"employee handbook\" in the title.",
+      "Show files whose title matches \"customer retention\".",
+      "Search document titles for \"server hardening checklist\".",
+      "Look for titles containing \"Q4 planning\".",
+      "Find title matches for \"release notes\".",
+      "Search by title_query \"data governance policy\"."
     ]
   }
 }

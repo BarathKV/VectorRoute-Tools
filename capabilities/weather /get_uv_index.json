@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_uv_index",
-      "Execute get_uv_index function",
-      "How to get current and daily uv index for a city?",
-      "How to use get_uv_index?",
-      "Invoke get_uv_index.",
-      "Return result from get_uv_index.",
-      "Run get_uv_index with valid parameters.",
-      "Show an example for get_uv_index.",
-      "Trigger get_uv_index tool.",
-      "Use get_uv_index now."
+      "What is the UV index in Bengaluru right now?",
+      "Show the current UV index for Los Angeles.",
+      "Get the UV level for Dubai.",
+      "Tell me today\u2019s UV index in Sydney.",
+      "Fetch the UV index for Tokyo.",
+      "How strong is the UV index in Miami?",
+      "Check the UV index in Singapore.",
+      "Show UV conditions for Cape Town.",
+      "Get the current UV index using city London.",
+      "What is the UV exposure level in New Delhi?"
     ]
   }
 }

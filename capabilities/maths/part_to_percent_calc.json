@@ -23,12 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "What is 15% of 200?",
-      "Calculate 25 percent of 80",
-      "Find 10% of 1500",
-      "Execute part_to_percent_calc with 50 percent of 300",
-      "How much is 5% of a 1000 dollar loan?",
-      "Use part_to_percent_calc to find 75% of 40"
+      "What is 15% of 240?",
+      "Calculate 8.5 percent of 3200.",
+      "Find 22% of 75.",
+      "How much is 5 percent of 980?",
+      "Compute percentage value using percentage 12 and whole 450.",
+      "What is 33.3% of 600?",
+      "Calculate 18 percent of 1250.",
+      "Find the value for 2.5% of 400.",
+      "How much is 40 percent of 85?",
+      "Work out 7% of 910."
     ]
   }
 }

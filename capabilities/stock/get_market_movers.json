@@ -16,16 +16,16 @@
       "required": []
     },
     "example_user_queries": [
-      "Call get_market_movers",
-      "Execute get_market_movers function",
-      "How to get top gainers and losers from a stock watchlist?",
-      "How to use get_market_movers?",
-      "Invoke get_market_movers.",
-      "Return result from get_market_movers.",
-      "Run get_market_movers with valid parameters.",
-      "Show an example for get_market_movers.",
-      "Trigger get_market_movers tool.",
-      "Use get_market_movers now."
+      "Show the top 5 market movers.",
+      "Get 10 market movers for today.",
+      "List the top 15 stocks moving the market.",
+      "Fetch the biggest 8 market movers.",
+      "Give me the top 20 gainers and losers.",
+      "Show market movers with limit 12.",
+      "Get the leading 6 market movers.",
+      "What are the top 25 market movers right now?",
+      "Pull a list of 7 market movers.",
+      "Return market movers limited to 9 entries."
     ]
   }
 }

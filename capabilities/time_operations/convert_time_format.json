@@ -26,16 +26,16 @@
       ]
     },
     "example_user_queries": [
-      "Call convert_time_format",
-      "Execute convert_time_format function",
-      "How to convert a time string from one format to another?",
-      "How to use convert_time_format?",
-      "Invoke convert_time_format.",
-      "Return result from convert_time_format.",
-      "Run convert_time_format with valid parameters.",
-      "Show an example for convert_time_format.",
-      "Trigger convert_time_format tool.",
-      "Use convert_time_format now."
+      "Convert 18:45 from %H:%M to %I:%M %p.",
+      "Change 07:30 PM from %I:%M %p to %H:%M.",
+      "Format 23:05 from 24-hour time into 12-hour time.",
+      "Convert time_string 06:15 AM from %I:%M %p to %H:%M.",
+      "Switch 14:00 from %H:%M to %I:%M %p.",
+      "Transform 12:01 AM into 24-hour format.",
+      "Convert 09:55 PM using input_format %I:%M %p and output_format %H:%M.",
+      "Change 00:30 from %H:%M into %I:%M %p.",
+      "Reformat 11:59 PM to 24-hour time.",
+      "Turn 16:20 into 12-hour format."
     ]
   }
 }

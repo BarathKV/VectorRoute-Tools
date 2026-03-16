@@ -28,16 +28,16 @@
       ]
     },
     "example_user_queries": [
-      "Call convert_currency",
-      "Execute convert_currency function",
-      "How to convert an amount from one currency to another?",
-      "How to use convert_currency?",
-      "Invoke convert_currency.",
-      "Return result from convert_currency.",
-      "Run convert_currency with valid parameters.",
-      "Show an example for convert_currency.",
-      "Trigger convert_currency tool.",
-      "Use convert_currency now."
+      "Convert 250 USD to INR.",
+      "How much is 99.5 EUR in GBP?",
+      "Exchange 1000 JPY to USD.",
+      "Convert 7500 INR into AED.",
+      "What is 125 CAD in AUD?",
+      "Turn 300 EUR into SEK.",
+      "Convert 50 GBP to USD.",
+      "How much is 1200 MXN in EUR?",
+      "Exchange 85 SGD to INR.",
+      "Convert amount 100 from_currency USD to to_currency CHF."
     ]
   }
 }

@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call lcm",
-      "Execute lcm function",
-      "How to calculate the least common multiple of two numbers?",
-      "How to use lcm?",
-      "Invoke lcm.",
-      "Return result from lcm.",
-      "Run lcm with valid parameters.",
-      "Show an example for lcm.",
-      "Trigger lcm tool.",
-      "Use lcm now."
+      "Find the LCM of 12 and 18.",
+      "Calculate the least common multiple of 21 and 6.",
+      "What is the LCM for a = 14 and b = 35?",
+      "Compute lcm of 8 and 20.",
+      "Give me the least common multiple of 9 and 15.",
+      "Determine the lcm for 16 and 24.",
+      "Find the least common multiple between 11 and 13.",
+      "Calculate lcm using a 45 and b 30.",
+      "What is the lcm result for 7 and 5?",
+      "Work out the LCM of 27 and 36."
     ]
   }
 }

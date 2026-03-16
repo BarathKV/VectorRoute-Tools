@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call keyword_search",
-      "Execute keyword_search function",
-      "Find documents mentioning API",
-      "Find files containing login",
-      "Find files containing timeout",
-      "How to use keyword_search?",
-      "Invoke keyword_search.",
-      "Look for reports with failure",
-      "Look up documents with authentication",
-      "Return result from keyword_search."
+      "Search the knowledge_base source for the keyword \"vector embeddings\".",
+      "Run a keyword search for \"incident response\" in internal_docs.",
+      "Find documents in engineering_wiki containing \"database migration\".",
+      "Search source project_notes for the query \"customer onboarding\".",
+      "Look up \"SLA breach\" in support_articles using keyword search.",
+      "Search the policies source for \"access control\".",
+      "Find matches for \"release checklist\" in handbook.",
+      "Keyword search \"API gateway\" within architecture_docs.",
+      "Search the runbooks source for \"disk space alert\".",
+      "Find the term \"forecast model\" in analytics_repo."
     ]
   }
 }

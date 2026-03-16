@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call calculate_bmi",
-      "Execute calculate_bmi function",
-      "How to calculate body mass index (bmi)?",
-      "How to use calculate_bmi?",
-      "Invoke calculate_bmi.",
-      "Return result from calculate_bmi.",
-      "Run calculate_bmi with valid parameters.",
-      "Show an example for calculate_bmi.",
-      "Trigger calculate_bmi tool.",
-      "Use calculate_bmi now."
+      "Calculate BMI for 68 kg and 172 cm.",
+      "What is the BMI of someone who weighs 82 kg and is 180 cm tall?",
+      "Compute BMI for weight 54 kg and height 160 cm.",
+      "Find my BMI if I am 95 kg and 178 cm.",
+      "Check BMI for 73.5 kg at 169 cm height.",
+      "Calculate body mass index with weight_kg 61 and height_cm 165.",
+      "What BMI do I get for 88 kg and 184 cm?",
+      "Work out BMI for a person weighing 47 kg and standing 154 cm tall.",
+      "Tell me the BMI for 102 kg and 191 cm.",
+      "Estimate BMI using 58 kg and 163 cm."
     ]
   }
 }

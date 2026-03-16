@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call reverse_number",
-      "Execute reverse_number function",
-      "How to reverse the digits of a number?",
-      "How to use reverse_number?",
-      "Invoke reverse_number.",
-      "Return result from reverse_number.",
-      "Run reverse_number with valid parameters.",
-      "Show an example for reverse_number.",
-      "Trigger reverse_number tool.",
-      "Use reverse_number now."
+      "Reverse the number 12345.",
+      "What is 908172 reversed?",
+      "Flip the digits of 40060.",
+      "Reverse n = 7654321.",
+      "Give me the reversed form of 1200.",
+      "Turn the number 987654 into reverse order.",
+      "Find the digit-reversed value of 10101.",
+      "Reverse the integer 56007.",
+      "Show the reversed number for 3002.",
+      "Compute reverse_number for n equal to 24680."
     ]
   }
 }

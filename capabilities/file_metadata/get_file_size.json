@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_file_size",
-      "Execute get_file_size function",
-      "How to get the size of a file?",
-      "How to use get_file_size?",
-      "Invoke get_file_size.",
-      "Return result from get_file_size.",
-      "Run get_file_size with valid parameters.",
-      "Show an example for get_file_size.",
-      "Trigger get_file_size tool.",
-      "Use get_file_size now."
+      "What is the size of ./README.md?",
+      "Show the file size for ./capabilities/travel/get_distance_between_cities.json.",
+      "Get the size of ./capabilities/map/reverse_geocode.json in bytes.",
+      "Tell me how large ./capabilities/news/get_latest_headlines.json is.",
+      "Check the file size of ./capabilities/stock/get_crypto_price.json.",
+      "Return the size of ./capabilities/time_operations/get_current_time.json.",
+      "How big is ./capabilities/health/estimate_daily_calories.json?",
+      "Find the size of ./capabilities/maths/length_converter.json.",
+      "Give me the byte size of ./capabilities/file_metadata/get_file_owner.json.",
+      "Measure the size of ./capabilities/ir/keyword_search.json."
     ]
   }
 }

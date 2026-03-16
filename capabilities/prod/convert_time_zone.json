@@ -28,16 +28,16 @@
       ]
     },
     "example_user_queries": [
-      "Call convert_time_zone",
-      "Execute convert_time_zone function",
-      "How to convert time between time zones?",
-      "How to use convert_time_zone?",
-      "Invoke convert_time_zone.",
-      "Return result from convert_time_zone.",
-      "Run convert_time_zone with valid parameters.",
-      "Show an example for convert_time_zone.",
-      "Trigger convert_time_zone tool.",
-      "Use convert_time_zone now."
+      "Convert 2026-04-10 14:30 from UTC to America/New_York.",
+      "Change 09:00 from Asia/Kolkata to Europe/London.",
+      "Convert 2026-12-01 18:45 from America/Los_Angeles to Asia/Tokyo.",
+      "What is 07:15 in UTC when converted to Australia/Sydney?",
+      "Translate 2026-06-20 23:00 from Europe/Paris to UTC.",
+      "Convert time_str 15:40 from_timezone Europe/Berlin to to_timezone Asia/Dubai.",
+      "Change 2026-01-05 08:00 from America/Chicago to Europe/Amsterdam.",
+      "Convert 11:55 PM from Asia/Singapore to America/Vancouver.",
+      "What does 2026-09-14 05:25 become in Pacific/Auckland if the source zone is UTC?",
+      "Shift 13:10 from Africa/Johannesburg to Europe/Madrid."
     ]
   }
 }

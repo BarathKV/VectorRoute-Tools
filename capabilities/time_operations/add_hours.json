@@ -27,16 +27,16 @@
       ]
     },
     "example_user_queries": [
-      "Call add_hours",
-      "Execute add_hours function",
-      "How to add hours to a given time?",
-      "How to use add_hours?",
-      "Invoke add_hours.",
-      "Return result from add_hours.",
-      "Run add_hours with valid parameters.",
-      "Show an example for add_hours.",
-      "Trigger add_hours tool.",
-      "Use add_hours now."
+      "Add 5 hours to 09:30.",
+      "What time is 14:15 plus 3 hours?",
+      "Add 12 hours to 11:45 PM using %I:%M %p.",
+      "Increase 06:20 by 8 hours.",
+      "Add 2.5 hours to 18:00.",
+      "Call add_hours with time_string 07:10, hours 4, and format %H:%M.",
+      "If the time is 10:50, what do I get after adding 6 hours?",
+      "Add 1 hour to 23:30 in 24-hour format.",
+      "Shift 03:05 PM forward by 9 hours using %I:%M %p.",
+      "Calculate the new time after adding 7 hours to 21:40."
     ]
   }
 }

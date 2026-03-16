@@ -11,16 +11,16 @@
       "required": []
     },
     "example_user_queries": [
-      "Call get_current_time",
-      "Execute get_current_time function",
-      "How to get the current time in hh:mm:ss format?",
-      "How to use get_current_time?",
-      "Invoke get_current_time.",
-      "Return result from get_current_time.",
-      "Run get_current_time with valid parameters.",
-      "Show an example for get_current_time.",
-      "Trigger get_current_time tool.",
-      "Use get_current_time now."
+      "What is the current time?",
+      "Tell me the time right now.",
+      "Get the current local time.",
+      "Show me the time now.",
+      "What time is it at the moment?",
+      "Fetch the current time.",
+      "Give me the current system time.",
+      "Check the local time now.",
+      "Return the current time.",
+      "I need the current time right away."
     ]
   }
 }

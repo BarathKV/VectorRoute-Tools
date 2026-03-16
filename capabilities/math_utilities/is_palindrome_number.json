@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call is_palindrome_number",
-      "Execute is_palindrome_number function",
-      "How to check if a number is a palindrome?",
-      "How to use is_palindrome_number?",
-      "Invoke is_palindrome_number.",
-      "Return result from is_palindrome_number.",
-      "Run is_palindrome_number with valid parameters.",
-      "Show an example for is_palindrome_number.",
-      "Trigger is_palindrome_number tool.",
-      "Use is_palindrome_number now."
+      "Is 121 a palindrome number?",
+      "Check whether 12321 is a palindrome.",
+      "Tell me if 45654 reads the same backward.",
+      "Is the number 1001 a numeric palindrome?",
+      "Determine whether 98789 is a palindrome number.",
+      "Check palindrome status for n = 1331.",
+      "Is 12345 a palindrome number?",
+      "Find out if 4004 is a palindrome.",
+      "Test whether 76567 is the same in reverse.",
+      "Verify if number 9009 is palindromic."
     ]
   }
 }

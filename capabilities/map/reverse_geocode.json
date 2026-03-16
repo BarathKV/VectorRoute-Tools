@@ -23,16 +23,16 @@
       ]
     },
     "example_user_queries": [
-      "Call reverse_geocode",
-      "Execute reverse_geocode function",
-      "How to convert coordinates into a readable address?",
-      "How to use reverse_geocode?",
-      "Invoke reverse_geocode.",
-      "Return result from reverse_geocode.",
-      "Run reverse_geocode with valid parameters.",
-      "Show an example for reverse_geocode.",
-      "Trigger reverse_geocode tool.",
-      "Use reverse_geocode now."
+      "What location corresponds to latitude 40.7484 and longitude -73.9857?",
+      "Reverse geocode the coordinates 37.7749, -122.4194.",
+      "Find the address for lat 51.5074 and lon -0.1278.",
+      "Tell me where 28.6139, 77.2090 is.",
+      "Look up the place for latitude 48.8584 and longitude 2.2945.",
+      "Get the address from coordinates 35.6895, 139.6917.",
+      "Which location is at 34.0522, -118.2437?",
+      "Reverse geocode latitude 25.2048 and longitude 55.2708.",
+      "Identify the address for coordinates 52.5200, 13.4050.",
+      "Find the place name for lat 19.0760 and lon 72.8777."
     ]
   }
 }

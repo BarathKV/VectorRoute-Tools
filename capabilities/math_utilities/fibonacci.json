@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call fibonacci",
-      "Execute fibonacci function",
-      "How to get the nth fibonacci number?",
-      "How to use fibonacci?",
-      "Invoke fibonacci.",
-      "Return result from fibonacci.",
-      "Run fibonacci with valid parameters.",
-      "Show an example for fibonacci.",
-      "Trigger fibonacci tool.",
-      "Use fibonacci now."
+      "Get the 10th Fibonacci number.",
+      "Generate Fibonacci for n = 15.",
+      "What is the Fibonacci value at position 8?",
+      "Find the 20th term in the Fibonacci sequence.",
+      "Compute Fibonacci number for n 1.",
+      "Show me the Fibonacci result when n is 12.",
+      "Calculate the Fibonacci term at position 25.",
+      "Return Fibonacci for n = 6.",
+      "Tell me the 30th Fibonacci number.",
+      "Evaluate fibonacci with n equal to 18."
     ]
   }
 }

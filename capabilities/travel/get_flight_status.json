@@ -18,16 +18,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_flight_status",
-      "Execute get_flight_status function",
-      "How to get live flight status using aircraft callsign?",
-      "How to use get_flight_status?",
-      "Invoke get_flight_status.",
-      "Return result from get_flight_status.",
-      "Run get_flight_status with valid parameters.",
-      "Show an example for get_flight_status.",
-      "Trigger get_flight_status tool.",
-      "Use get_flight_status now."
+      "Check the status of flight AA100.",
+      "What is the current status of BA2490?",
+      "Track flight EK215.",
+      "Get flight status for LH760.",
+      "Is flight AI101 on time?",
+      "Show the latest status for UA884.",
+      "Fetch the status of SQ322.",
+      "Look up flight QR570.",
+      "Check callsign DL1475.",
+      "Tell me the status of flight AF011."
     ]
   }
 }

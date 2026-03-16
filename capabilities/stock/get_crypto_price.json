@@ -22,16 +22,16 @@
       ]
     },
     "example_user_queries": [
-      "Call get_crypto_price",
-      "Execute get_crypto_price function",
-      "How to get current crypto price and 24h market stats?",
-      "How to use get_crypto_price?",
-      "Invoke get_crypto_price.",
-      "Return result from get_crypto_price.",
-      "Run get_crypto_price with valid parameters.",
-      "Show an example for get_crypto_price.",
-      "Trigger get_crypto_price tool.",
-      "Use get_crypto_price now."
+      "What is the price of bitcoin in USD?",
+      "Get the current ethereum price in EUR.",
+      "Show me the price of solana in INR.",
+      "Fetch dogecoin price in USD.",
+      "How much is cardano worth in GBP?",
+      "Get the crypto price for coin_id ripple against usd.",
+      "Tell me the price of litecoin in CAD.",
+      "Check polkadot price in AUD.",
+      "Show current price for chainlink in AED.",
+      "What is the value of coin_id bitcoin in vs_currency eur?"
     ]
   }
 }

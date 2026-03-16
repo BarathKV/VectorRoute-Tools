@@ -21,16 +21,16 @@
       ]
     },
     "example_user_queries": [
-      "Call compare_stocks",
-      "Execute compare_stocks function",
-      "How to compare multiple stocks by current price and daily movement?",
-      "How to use compare_stocks?",
-      "Invoke compare_stocks.",
-      "Return result from compare_stocks.",
-      "Run compare_stocks with valid parameters.",
-      "Show an example for compare_stocks.",
-      "Trigger compare_stocks tool.",
-      "Use compare_stocks now."
+      "Compare the stocks AAPL, MSFT, and GOOGL.",
+      "Show a comparison of TSLA versus NVDA.",
+      "Compare stock symbols AMZN, META, and NFLX.",
+      "How do JPM and BAC compare?",
+      "Run a stock comparison for IBM, ORCL, and SAP.",
+      "Compare these stocks: AMD, INTC, QCOM.",
+      "Give me a comparison of KO and PEP.",
+      "Compare symbols DIS, CMCSA, and PARA.",
+      "Show comparative stock data for WMT, COST, and TGT.",
+      "Compare stocks using symbols [\"AAPL\", \"MSFT\", \"NVDA\"]."
     ]
   }
 }
