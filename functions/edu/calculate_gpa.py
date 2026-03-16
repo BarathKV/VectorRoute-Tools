@@ -1,4 +1,6 @@
-def calculate_gpa(grades: list, credits: list):
+from typing import List
+
+def calculate_gpa(grades: List[int], credits: List[int]):
     """
     Calculate GPA using weighted average method.
 

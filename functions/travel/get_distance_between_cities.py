@@ -1,61 +1,6 @@
 import requests
 import math
 
-def _geocode_city(city: str):
-    """
-    _geocode_city function.
-
-    Args:
-        city (str): Input parameter.
-
-    Returns:
-        Any: Function result.
-    """
-    url = "https://nominatim.openstreetmap.org/search"
-    params = {
-        "q": city,
-        "format": "json",
-        "limit": 1
-    }
-    headers = {
-        "User-Agent": "agentic-tool-demo"
-    }
-
-    response = requests.get(url, params=params, headers=headers, timeout=10)
-    response.raise_for_status()
-    data = response.json()
-
-    if not data:
-        return None
-
-    return float(data[0]["lat"]), float(data[0]["lon"])
-
-
-def _haversine(lat1, lon1, lat2, lon2):
-    """
-    _haversine function.
-
-    Args:
-        lat1 (Any): Input parameter.
-        lon1 (Any): Input parameter.
-        lat2 (Any): Input parameter.
-        lon2 (Any): Input parameter.
-
-    Returns:
-        Any: Function result.
-    """
-    R = 6371  # Earth radius in km
-
-    phi1 = math.radians(lat1)
-    phi2 = math.radians(lat2)
-    dphi = math.radians(lat2 - lat1)
-    dlambda = math.radians(lon2 - lon1)
-
-    a = math.sin(dphi / 2) ** 2 + \
-        math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
-
-    return 2 * R * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-
 
 def get_distance_between_cities(city_from: str, city_to: str):
     """
@@ -68,6 +13,62 @@ def get_distance_between_cities(city_from: str, city_to: str):
     Returns:
         Any: Function result.
     """
+
+    def _geocode_city(city: str):
+        """
+        _geocode_city function.
+
+        Args:
+            city (str): Input parameter.
+
+        Returns:
+            Any: Function result.
+        """
+        url = "https://nominatim.openstreetmap.org/search"
+        params = {
+            "q": city,
+            "format": "json",
+            "limit": 1
+        }
+        headers = {
+            "User-Agent": "agentic-tool-demo"
+        }
+
+        response = requests.get(url, params=params, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+
+        if not data:
+            return None
+
+        return float(data[0]["lat"]), float(data[0]["lon"])
+
+
+    def _haversine(lat1, lon1, lat2, lon2):
+        """
+        _haversine function.
+
+        Args:
+            lat1 (Any): Input parameter.
+            lon1 (Any): Input parameter.
+            lat2 (Any): Input parameter.
+            lon2 (Any): Input parameter.
+
+        Returns:
+            Any: Function result.
+        """
+        R = 6371  # Earth radius in km
+
+        phi1 = math.radians(lat1)
+        phi2 = math.radians(lat2)
+        dphi = math.radians(lat2 - lat1)
+        dlambda = math.radians(lon2 - lon1)
+
+        a = math.sin(dphi / 2) ** 2 + \
+            math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
+
+        return 2 * R * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+        
     loc1 = _geocode_city(city_from)
     loc2 = _geocode_city(city_to)
 

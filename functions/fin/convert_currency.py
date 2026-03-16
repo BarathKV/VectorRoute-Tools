@@ -16,7 +16,6 @@ def convert_currency(from_currency: str, to_currency: str, amount: float):
     params = {
         "base": from_currency.upper(),
         "symbols": to_currency.upper(),
-        "amount": amount
     }
 
     try:
@@ -28,8 +27,8 @@ def convert_currency(from_currency: str, to_currency: str, amount: float):
         if "rates" not in data:
             raise ValueError(f"API Error: Unable to fetch exchange rate")
         
-        converted_amount = data["rates"][to_currency.upper()] * amount
         rate = data["rates"][to_currency.upper()]
+        converted_amount = rate * amount
         
         return {
             "from": from_currency.upper(),

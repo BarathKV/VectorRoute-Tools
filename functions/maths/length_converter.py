@@ -1,4 +1,4 @@
-def length_converter(value:float, from_unit:str, to_unit:str) -> float:
+def length_converter(value: float, from_unit: str, to_unit: str) -> float:
     """
     length_converter function.
 
@@ -10,8 +10,9 @@ def length_converter(value:float, from_unit:str, to_unit:str) -> float:
     Returns:
         float: Function result.
     """
-    # Define conversion factors
-    conversion_factors = {
+
+    # Define conversion factors relative to 1 meter
+    factors = {
         'm': 1.0,
         'km': 1000.0,
         'cm': 0.01,
@@ -19,16 +20,30 @@ def length_converter(value:float, from_unit:str, to_unit:str) -> float:
         'in': 0.0254,
         'ft': 0.3048,
         'yd': 0.9144,
+        'mi': 1609.344
     }
-    
-    # Check if the units are valid
-    if from_unit not in conversion_factors or to_unit not in conversion_factors:
-        raise ValueError("Invalid units provided.")
-    
-    # Convert the value to meters
-    value_in_meters = value * conversion_factors[from_unit]
-    
-    # Convert the value from meters to the target unit
-    converted_value = value_in_meters / conversion_factors[to_unit]
-    
-    return converted_value
+
+    # Map all possible aliases to the keys in 'factors'
+    unit_map = {
+        # Metric
+        'm': 'm', 'meter': 'm', 'meters': 'm',
+        'km': 'km', 'kilometer': 'km', 'kilometers': 'km',
+        'cm': 'cm', 'centimeter': 'cm', 'centimeters': 'cm',
+        'mm': 'mm', 'millimeter': 'mm', 'millimeters': 'mm',
+        # Imperial
+        'in': 'in', 'inch': 'in', 'inches': 'in',
+        'ft': 'ft', 'foot': 'ft', 'feet': 'ft',
+        'yd': 'yd', 'yard': 'yd', 'yards': 'yd',
+        'mi': 'mi', 'mile': 'mi', 'miles': 'mi'
+    }
+
+    # Normalize inputs
+    from_key = unit_map.get(from_unit.lower().strip())
+    to_key = unit_map.get(to_unit.lower().strip())
+
+    if not from_key or not to_key:
+        raise ValueError(f"Invalid units: '{from_unit}' or '{to_unit}' not supported.")
+
+    # Convert to meters, then to target unit
+    value_in_meters = value * factors[from_key]
+    return value_in_meters / factors[to_key]
