@@ -10,7 +10,7 @@
       "properties": {
         "category": {
           "type": "string",
-          "description": "Quiz topic or category (general trivia)"
+          "description": "Quiz topic or category (Sports, Science & Nature, Entertainment)"
         },
         "difficulty": {
           "type": "string",

@@ -1,0 +1,38 @@
+{
+  "type": "function",
+  "function": {
+    "name": "convert_time_between_locations",
+    "description": "Convert time between two named locations (cities, countries, etc.).",
+    "long_description": "Resolves city or location names to their official IANA timezones and converts a specific date/time between them, automatically accounting for Daylight Saving Time.",
+    "domain": "Time & Date",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "time_str": {
+          "type": "string",
+          "description": "The time in 'YYYY-MM-DD HH:MM' format."
+        },
+        "from_location": {
+          "type": "string",
+          "description": "The starting location (e.g., 'Kolkata', 'New York', 'Dubai')."
+        },
+        "to_location": {
+          "type": "string",
+          "description": "The destination location (e.g., 'London', 'Tokyo')."
+        }
+      },
+      "required": ["time_str", "from_location", "to_location"]
+    },
+    "example_user_queries": [
+      "If it's 10:00 AM in Kolkata, what time is it in Dubai?",
+      "Convert 2026-06-01 14:00 from New York to Paris.",
+      "What time is it in Tokyo when it's 8 PM in Los Angeles?",
+      "Time difference between Sydney and Mumbai for tomorrow at noon.",
+      "When it is midnight on New Year's Eve in Sydney, what time will it be in London?",
+      "Convert 2026-08-15 09:30 from Chicago time to Singapore.",
+      "I have a meeting at 3 PM in Berlin; what time should my colleague in San Francisco log in?",
+      "If a flight leaves Dubai at 2026-11-20 22:00, what is the local time in Kolkata at that exact moment?",
+      "What will be the local time in Johannesburg if I set my clock to 10:00 in Toronto on March 25th?"
+    ]
+  }
+}

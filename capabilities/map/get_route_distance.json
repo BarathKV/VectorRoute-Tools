@@ -2,47 +2,32 @@
   "type": "function",
   "function": {
     "name": "get_route_distance",
-    "description": "Calculate road distance between two locations.",
-    "long_description": "Calculates the driving route distance between two geographic coordinates using real road network data from an external routing service.",
+    "description": "Calculate driving distance between two city names or addresses.",
+    "long_description": "First resolves location names to geographic coordinates using the Open-Meteo Geocoding API, then calculates the driving distance using the OSRM road network service.",
     "domain": "Maps & Location",
     "parameters": {
       "type": "object",
       "properties": {
-        "start_latitude": {
-          "type": "number",
-          "description": "Starting point latitude"
+        "start_location": {
+          "type": "string",
+          "description": "The starting city or address (e.g., 'London' or '1600 Amphitheatre Parkway, Mountain View, CA')"
         },
-        "start_longitude": {
-          "type": "number",
-          "description": "Starting point longitude"
-        },
-        "end_latitude": {
-          "type": "number",
-          "description": "Destination latitude"
-        },
-        "end_longitude": {
-          "type": "number",
-          "description": "Destination longitude"
+        "end_location": {
+          "type": "string",
+          "description": "The destination city or address (e.g., 'Paris')"
         }
       },
       "required": [
-        "start_latitude",
-        "start_longitude",
-        "end_latitude",
-        "end_longitude"
+        "start_location",
+        "end_location"
       ]
     },
     "example_user_queries": [
-      "Call get_route_distance",
-      "Execute get_route_distance function",
-      "How to calculate road distance between two locations?",
-      "How to use get_route_distance?",
-      "Invoke get_route_distance.",
-      "Return result from get_route_distance.",
-      "Run get_route_distance with valid parameters.",
-      "Show an example for get_route_distance.",
-      "Trigger get_route_distance tool.",
-      "Use get_route_distance now."
+      "How far is the drive from New York to Los Angeles?",
+      "Calculate the road distance between Berlin and Munich.",
+      "What is the driving distance from London to Edinburgh?",
+      "Use get_route_distance to find the distance from Tokyo to Osaka.",
+      "Check the road distance between Seattle and Vancouver."
     ]
   }
 }

@@ -1,4 +1,4 @@
-{
+ {
   "type": "function",
   "function": {
     "name": "file_exists",
@@ -18,7 +18,7 @@
       ]
     },
     "example_user_queries": [
-      "Call file_exists",
+      "Check if the file 'folder/subfolder/filename' exists",
       "Execute file_exists function",
       "How to check if a file or directory exists?",
       "How to use file_exists?",

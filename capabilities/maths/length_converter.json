@@ -7,13 +7,16 @@
       "type": "object",
       "properties": {
         "value": {
-          "type": "number"
+          "type": "number",
+          "description":"The actual value to be converted"
         },
         "from_unit": {
-          "type": "string"
+          "type": "string",
+          "description":"the unit from which the value has to be converted"
         },
         "to_unit": {
-          "type": "string"
+          "type": "string",
+          "description":"the unit into which the value has to be converted to"
         }
       },
       "required": [
